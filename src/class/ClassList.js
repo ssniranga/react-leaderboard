@@ -10,8 +10,8 @@ const columns = [
       center:true,
     },
     {
-      name: 'Name',
-      selector: 'name'
+      name: "Teacher's Name",
+      selector: 'teacher_name'
     },
     {
         name: 'Class',
@@ -30,76 +30,76 @@ const columns = [
     },
   ];
 
-class StudentList extends Component {
+class ClassList extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            StudentData: []
+            ClassData: []
         };
       }
 
     componentDidMount() {
-        this.getStudentData();
+        this.getClassData();
         this.interval = setInterval(() => {
-            this.getStudentData();
+            this.getClassData();
             localStorage.clear();
-            console.log("a");
+            console.log("b");
         }, timeOut);
     }
 
-    getStudentData() {
-        if (localStorage.getItem('studentCacheData')){
-            let sData =JSON.parse(localStorage.getItem('studentCacheData'));
+    getClassData() {
+        if (localStorage.getItem('classCacheData')){
+            let sData =JSON.parse(localStorage.getItem('classCacheData'));
             this.setState({               
-                StudentData: sData.slice(0,10)
+                ClassData: sData.slice(0,10)
             });
-            console.log("student cached");
+            console.log("Class cached");
         }
         else{
-            axios.get("../data/students-scores.json")
+            axios.get("../data/class-scores.json")
             .then(res => {
-                let sData = res.data; 
-                sData.sort(function(a, b){return b.score - a.score});
+                let cData = res.data; 
+                cData.sort(function(a, b){return b.score - a.score});
                 this.setState({               
-                    StudentData: sData.slice(0,10)
+                    ClassData: cData.slice(0,10)
                 });
-                localStorage.setItem('studentCacheData', JSON.stringify(res.data));
+                localStorage.setItem('classCacheData', JSON.stringify(res.data));
             });
-            console.log("student non cached");
+            console.log("Class non cached");
         }
     }
      componentWillUnmount() {
        clearInterval(this.interval);
      }
 
-     _getStudents() {
-        const data = this.state.StudentData;
-        const stuItems = data.map((student, index) => (
+     _getClass() {
+        const data = this.state.ClassData;
+        const clsItems = data.map((classes, index) => (
             {   
                 rank : index + 1 , 
-                name : student.name,
-                class: student.class_name, 
-                school: student.school_name, 
-                score:student.score   
+                teacher_name : classes.teacher_name,
+                class: classes.class_name, 
+                school: classes.school_name, 
+                score:classes.score   
             }
         ));
-        return stuItems;
+        return clsItems;
     }
 
      render(){
         return (
             <div className="student-container">
-                <h2>Student's Leaderboard</h2>
+                <h2>Class Leaderboard</h2>
                 <DataTable
                     columns={columns}
                     highlightOnHover
                     pointerOnHover
                     striped
                     className="student-table"
-                    data={this._getStudents()}
+                    data={this._getClass()}
                 />
             </div>
     );
 }}
 
-export default StudentList;
+export default ClassList;

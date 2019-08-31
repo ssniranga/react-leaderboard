@@ -1,702 +1,602 @@
 [
-    {
-      "school_name": "State Central",
-      "first_name": "Bobbie",
-      "last_name": "Nichols",
-      "score": 915,
-      "class_name": 5
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Edwards",
-      "last_name": "Hernandez",
-      "score": 999,
-      "class_name": "Prep"
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Bobbi",
-      "last_name": "Rowe",
-      "score": 262,
-      "class_name": 2
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Shelby",
-      "last_name": "Mccormick",
-      "score": 985,
-      "class_name": 4
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "June",
-      "last_name": "Wright",
-      "score": 935,
-      "class_name": "Prep"
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Eleanor",
-      "last_name": "Strong",
-      "score": 309,
-      "class_name": 4
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Romero",
-      "last_name": "Witt",
-      "score": 179,
-      "class_name": 5
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Sadie",
-      "last_name": "Noel",
-      "score": 856,
-      "class_name": "Prep"
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Selma",
-      "last_name": "Spencer",
-      "score": 543,
-      "class_name": 2
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Armstrong",
-      "last_name": "Wilkinson",
-      "score": 831,
-      "class_name": 4
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Langley",
-      "last_name": "Waters",
-      "score": 645,
-      "class_name": 1
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Jeanine",
-      "last_name": "Lambert",
-      "score": 886,
-      "class_name": 4
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Moses",
-      "last_name": "Jarvis",
-      "score": 599,
-      "class_name": 3
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Mae",
-      "last_name": "Harrison",
-      "score": 934,
-      "class_name": 3
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Rhea",
-      "last_name": "Livingston",
-      "score": 890,
-      "class_name": 5
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Marks",
-      "last_name": "Camacho",
-      "score": 466,
-      "class_name": 2
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Kerr",
-      "last_name": "Houston",
-      "score": 400,
-      "class_name": 1
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Callie",
-      "last_name": "Whitney",
-      "score": 922,
-      "class_name": 1
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Cannon",
-      "last_name": "Kinney",
-      "score": 604,
-      "class_name": 2
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Rosie",
-      "last_name": "Hunt",
-      "score": 656,
-      "class_name": 2
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Virgie",
-      "last_name": "Trujillo",
-      "score": 642,
-      "class_name": 4
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Greene",
-      "last_name": "Fuentes",
-      "score": 625,
-      "class_name": 5
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Church",
-      "last_name": "Allison",
-      "score": 781,
-      "class_name": 3
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Oconnor",
-      "last_name": "Strickland",
-      "score": 771,
-      "class_name": 1
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Foreman",
-      "last_name": "Evans",
-      "score": 490,
-      "class_name": "Prep"
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Barrera",
-      "last_name": "Huber",
-      "score": 432,
-      "class_name": 4
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Petersen",
-      "last_name": "Oneil",
-      "score": 482,
-      "class_name": 3
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Doris",
-      "last_name": "Gould",
-      "score": 291,
-      "class_name": 2
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Clarice",
-      "last_name": "Knowles",
-      "score": 50,
-      "class_name": 5
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Oneill",
-      "last_name": "Benjamin",
-      "score": 268,
-      "class_name": 2
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Boone",
-      "last_name": "Mooney",
-      "score": 233,
-      "class_name": 4
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Debra",
-      "last_name": "Berger",
-      "score": 246,
-      "class_name": 4
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Powell",
-      "last_name": "Gay",
-      "score": 974,
-      "class_name": 1
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Stefanie",
-      "last_name": "Leach",
-      "score": 656,
-      "class_name": 5
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Hughes",
-      "last_name": "Gallagher",
-      "score": 120,
-      "class_name": 1
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Krystal",
-      "last_name": "Calderon",
-      "score": 459,
-      "class_name": 3
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Marion",
-      "last_name": "Kelly",
-      "score": 72,
-      "class_name": 1
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Ofelia",
-      "last_name": "Cardenas",
-      "score": 864,
-      "class_name": 2
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Eva",
-      "last_name": "Finch",
-      "score": 937,
-      "class_name": 2
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Gina",
-      "last_name": "Riggs",
-      "score": 282,
-      "class_name": 5
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Silva",
-      "last_name": "Lester",
-      "score": 805,
-      "class_name": 1
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Sonya",
-      "last_name": "Goodwin",
-      "score": 597,
-      "class_name": 1
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Josie",
-      "last_name": "Coleman",
-      "score": 258,
-      "class_name": 1
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Goodwin",
-      "last_name": "Mcclain",
-      "score": 265,
-      "class_name": "Prep"
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Schroeder",
-      "last_name": "Ball",
-      "score": 663,
-      "class_name": 4
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Becky",
-      "last_name": "Atkinson",
-      "score": 206,
-      "class_name": 3
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Rene",
-      "last_name": "Bradford",
-      "score": 997,
-      "class_name": 3
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Nina",
-      "last_name": "Underwood",
-      "score": 651,
-      "class_name": 1
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Blanche",
-      "last_name": "Burch",
-      "score": 671,
-      "class_name": 5
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Reed",
-      "last_name": "Steele",
-      "score": 173,
-      "class_name": 2
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Gamble",
-      "last_name": "Castillo",
-      "score": 500,
-      "class_name": "Prep"
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Sawyer",
-      "last_name": "Sloan",
-      "score": 406,
-      "class_name": 5
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Wilder",
-      "last_name": "Barr",
-      "score": 286,
-      "class_name": 5
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Nancy",
-      "last_name": "Phelps",
-      "score": 983,
-      "class_name": 2
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Claire",
-      "last_name": "Campos",
-      "score": 665,
-      "class_name": 4
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Moore",
-      "last_name": "Schmidt",
-      "score": 141,
-      "class_name": 5
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Mai",
-      "last_name": "Byers",
-      "score": 81,
-      "class_name": 2
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Leila",
-      "last_name": "Martinez",
-      "score": 859,
-      "class_name": 2
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Stein",
-      "last_name": "Hurst",
-      "score": 356,
-      "class_name": 5
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Rivas",
-      "last_name": "Cummings",
-      "score": 563,
-      "class_name": 4
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Alberta",
-      "last_name": "Gregory",
-      "score": 915,
-      "class_name": 4
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Wilkinson",
-      "last_name": "Wilcox",
-      "score": 193,
-      "class_name": 1
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Madeleine",
-      "last_name": "Rasmussen",
-      "score": 149,
-      "class_name": 2
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Watkins",
-      "last_name": "Alvarado",
-      "score": 899,
-      "class_name": 4
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Lowe",
-      "last_name": "Fisher",
-      "score": 765,
-      "class_name": 2
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Mayra",
-      "last_name": "Carter",
-      "score": 458,
-      "class_name": 5
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Esperanza",
-      "last_name": "Anderson",
-      "score": 464,
-      "class_name": 1
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Lucinda",
-      "last_name": "Miranda",
-      "score": 441,
-      "class_name": 2
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Mason",
-      "last_name": "Wells",
-      "score": 954,
-      "class_name": "Prep"
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Katelyn",
-      "last_name": "Doyle",
-      "score": 322,
-      "class_name": 5
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Mathews",
-      "last_name": "Park",
-      "score": 680,
-      "class_name": 2
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Isabella",
-      "last_name": "Michael",
-      "score": 770,
-      "class_name": 2
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Hurst",
-      "last_name": "Hensley",
-      "score": 735,
-      "class_name": 2
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Glenn",
-      "last_name": "Drake",
-      "score": 104,
-      "class_name": 5
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Reynolds",
-      "last_name": "Webster",
-      "score": 164,
-      "class_name": "Prep"
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Pam",
-      "last_name": "Stephenson",
-      "score": 689,
-      "class_name": 2
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Tami",
-      "last_name": "Stephens",
-      "score": 656,
-      "class_name": 3
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Robin",
-      "last_name": "Wilder",
-      "score": 552,
-      "class_name": 5
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Riddle",
-      "last_name": "Pate",
-      "score": 643,
-      "class_name": 1
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Cummings",
-      "last_name": "Nixon",
-      "score": 825,
-      "class_name": 2
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Melinda",
-      "last_name": "Key",
-      "score": 788,
-      "class_name": 1
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Sheri",
-      "last_name": "Holloway",
-      "score": 854,
-      "class_name": "Prep"
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Lottie",
-      "last_name": "Mejia",
-      "score": 688,
-      "class_name": 1
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Tamera",
-      "last_name": "Chase",
-      "score": 142,
-      "class_name": 4
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Nadine",
-      "last_name": "English",
-      "score": 996,
-      "class_name": 3
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Tanisha",
-      "last_name": "Ramos",
-      "score": 950,
-      "class_name": 5
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Kayla",
-      "last_name": "Beard",
-      "score": 79,
-      "class_name": 2
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Kerri",
-      "last_name": "Rosa",
-      "score": 598,
-      "class_name": 2
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Sharron",
-      "last_name": "Larson",
-      "score": 911,
-      "class_name": "Prep"
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Barker",
-      "last_name": "Wolf",
-      "score": 104,
-      "class_name": 5
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Kate",
-      "last_name": "Goff",
-      "score": 315,
-      "class_name": 1
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Juliet",
-      "last_name": "Nolan",
-      "score": 799,
-      "class_name": 1
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Waters",
-      "last_name": "Hawkins",
-      "score": 802,
-      "class_name": 4
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Celeste",
-      "last_name": "Mcdonald",
-      "score": 643,
-      "class_name": 5
-    },
-    {
-      "school_name": "Brsibane High",
-      "first_name": "Dorothy",
-      "last_name": "Dillon",
-      "score": 650,
-      "class_name": "Prep"
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Sheila",
-      "last_name": "Hartman",
-      "score": 888,
-      "class_name": 3
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Katharine",
-      "last_name": "Hardin",
-      "score": 729,
-      "class_name": 3
-    },
-    {
-      "school_name": "State High School",
-      "first_name": "Mcdonald",
-      "last_name": "Richardson",
-      "score": 923,
-      "class_name": 5
-    },
-    {
-      "school_name": "Varsity Collage",
-      "first_name": "Blackwell",
-      "last_name": "Blankenship",
-      "score": 265,
-      "class_name": 2
-    },
-    {
-      "school_name": "State Central",
-      "first_name": "Huffman",
-      "last_name": "Medina",
-      "score": 696,
-      "class_name": 2
-    }
-  ]
+  {
+    "school_name": "state central",
+    "name": "alyce fischer",
+    "score": 995,
+    "class_name": 1
+  },
+  {
+    "school_name": "Sydney Girls High School",
+    "name": "Lara Walls",
+    "score": 709,
+    "class_name": 4
+  },
+  {
+    "school_name": "Fort Street High School",
+    "name": "Jenifer Mills",
+    "score": 55,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "Penrith High School",
+    "name": "Carson Wolf",
+    "score": 75,
+    "class_name": 3
+  },
+  {
+    "school_name": "Brsibane High",
+    "name": "Andrea Hooper",
+    "score": 130,
+    "class_name": 3
+  },
+  {
+    "school_name": "Penrith High School",
+    "name": "Andrews Cross",
+    "score": 654,
+    "class_name": 4
+  },
+  {
+    "school_name": "Penrith High School",
+    "name": "Elnora Mann",
+    "score": 770,
+    "class_name": 2
+  },
+  {
+    "school_name": "Caringbah High School",
+    "name": "Hopkins Herman",
+    "score": 478,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "State High School",
+    "name": "Winnie Ingram",
+    "score": 225,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "Bajool State School",
+    "name": "Alice Houston",
+    "score": 543,
+    "class_name": 5
+  },
+  {
+    "school_name": "Baulkham Hills High School",
+    "name": "Bennett Franks",
+    "score": 866,
+    "class_name": 2
+  },
+  {
+    "school_name": "Brsibane High",
+    "name": "Mckenzie Butler",
+    "score": 344,
+    "class_name": 1
+  },
+  {
+    "school_name": "Fort Street High School",
+    "name": "Cathy Castillo",
+    "score": 348,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "Fort Street High School",
+    "name": "Russell Aguirre",
+    "score": 611,
+    "class_name": 2
+  },
+  {
+    "school_name": "Caringbah High School",
+    "name": "Loraine Arnold",
+    "score": 218,
+    "class_name": 5
+  },
+  {
+    "school_name": "Fort Street High School",
+    "name": "Cindy Kennedy",
+    "score": 583,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "Caringbah High School",
+    "name": "Stephanie Strickland",
+    "score": 519,
+    "class_name": 5
+  },
+  {
+    "school_name": "The Scots College",
+    "name": "Darla Hickman",
+    "score": 318,
+    "class_name": 1
+  },
+  {
+    "school_name": "State High School",
+    "name": "Janette Owen",
+    "score": 121,
+    "class_name": 2
+  },
+  {
+    "school_name": "Fort Street High School",
+    "name": "Browning Silva",
+    "score": 764,
+    "class_name": 3
+  },
+  {
+    "school_name": "Varsity Collage",
+    "name": "Abbott Cantu",
+    "score": 521,
+    "class_name": 3
+  },
+  {
+    "school_name": "Brsibane High",
+    "name": "Shawna Morton",
+    "score": 251,
+    "class_name": 5
+  },
+  {
+    "school_name": "Perth Modern School",
+    "name": "Grace Cherry",
+    "score": 467,
+    "class_name": 3
+  },
+  {
+    "school_name": "The Scots College",
+    "name": "Stephens Bush",
+    "score": 974,
+    "class_name": 1
+  },
+  {
+    "school_name": "Varsity Collage",
+    "name": "Slater Mcconnell",
+    "score": 231,
+    "class_name": 1
+  },
+  {
+    "school_name": "state central",
+    "name": "Nichole Shaw",
+    "score": 346,
+    "class_name": 1
+  },
+  {
+    "school_name": "State High School",
+    "name": "Guadalupe Ruiz",
+    "score": 603,
+    "class_name": 1
+  },
+  {
+    "school_name": "state central",
+    "name": "Luann Blanchard",
+    "score": 545,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "Varsity Collage",
+    "name": "Amy Scott",
+    "score": 674,
+    "class_name": 1
+  },
+  {
+    "school_name": "state central",
+    "name": "Marcia Lang",
+    "score": 689,
+    "class_name": 5
+  },
+  {
+    "school_name": "Fort Street High School",
+    "name": "Hawkins Crosby",
+    "score": 348,
+    "class_name": 3
+  },
+  {
+    "school_name": "Penrith High School",
+    "name": "Hall Bean",
+    "score": 916,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "Brsibane High",
+    "name": "Tillman Sargent",
+    "score": 904,
+    "class_name": 5
+  },
+  {
+    "school_name": "Perth Modern School",
+    "name": "Mayer Mason",
+    "score": 306,
+    "class_name": 4
+  },
+  {
+    "school_name": "Caringbah High School",
+    "name": "Agnes Donaldson",
+    "score": 592,
+    "class_name": 3
+  },
+  {
+    "school_name": "Caringbah High School",
+    "name": "Clements Mays",
+    "score": 395,
+    "class_name": 2
+  },
+  {
+    "school_name": "Bajool State School",
+    "name": "Trudy Weber",
+    "score": 248,
+    "class_name": 5
+  },
+  {
+    "school_name": "Penrith High School",
+    "name": "Hampton Keith",
+    "score": 339,
+    "class_name": 3
+  },
+  {
+    "school_name": "state central",
+    "name": "Wiley Oneil",
+    "score": 390,
+    "class_name": 1
+  },
+  {
+    "school_name": "Bajool State School",
+    "name": "Hilda Atkinson",
+    "score": 292,
+    "class_name": 1
+  },
+  {
+    "school_name": "state central",
+    "name": "June Ratliff",
+    "score": 571,
+    "class_name": 2
+  },
+  {
+    "school_name": "The Scots College",
+    "name": "Albert Osborne",
+    "score": 345,
+    "class_name": 1
+  },
+  {
+    "school_name": "Bajool State School",
+    "name": "Neva Harrell",
+    "score": 645,
+    "class_name": 5
+  },
+  {
+    "school_name": "The Scots College",
+    "name": "Burgess Barnett",
+    "score": 568,
+    "class_name": 3
+  },
+  {
+    "school_name": "Varsity Collage",
+    "name": "Maritza Mullins",
+    "score": 423,
+    "class_name": 4
+  },
+  {
+    "school_name": "Brsibane High",
+    "name": "Saunders Rivers",
+    "score": 108,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "Caringbah High School",
+    "name": "Kelli Hamilton",
+    "score": 596,
+    "class_name": 3
+  },
+  {
+    "school_name": "state central",
+    "name": "Anthony Hendricks",
+    "score": 817,
+    "class_name": 1
+  },
+  {
+    "school_name": "Baulkham Hills High School",
+    "name": "Alberta Sharpe",
+    "score": 186,
+    "class_name": 5
+  },
+  {
+    "school_name": "Bajool State School",
+    "name": "Washington Gross",
+    "score": 599,
+    "class_name": 1
+  },
+  {
+    "school_name": "Bajool State School",
+    "name": "Castillo Nieves",
+    "score": 612,
+    "class_name": 2
+  },
+  {
+    "school_name": "Fort Street High School",
+    "name": "Maricela Hewitt",
+    "score": 722,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "state central",
+    "name": "Lessie Harrison",
+    "score": 934,
+    "class_name": 3
+  },
+  {
+    "school_name": "Sydney Girls High School",
+    "name": "Imogene Gilmore",
+    "score": 834,
+    "class_name": 5
+  },
+  {
+    "school_name": "Baulkham Hills High School",
+    "name": "Hogan Paul",
+    "score": 865,
+    "class_name": 3
+  },
+  {
+    "school_name": "state central",
+    "name": "Riddle Rowland",
+    "score": 187,
+    "class_name": 3
+  },
+  {
+    "school_name": "Baulkham Hills High School",
+    "name": "Joseph Rich",
+    "score": 140,
+    "class_name": 5
+  },
+  {
+    "school_name": "Caringbah High School",
+    "name": "Gomez Hughes",
+    "score": 352,
+    "class_name": 5
+  },
+  {
+    "school_name": "Baulkham Hills High School",
+    "name": "Cook Rios",
+    "score": 602,
+    "class_name": 1
+  },
+  {
+    "school_name": "Varsity Collage",
+    "name": "Harmon Stein",
+    "score": 190,
+    "class_name": 2
+  },
+  {
+    "school_name": "Baulkham Hills High School",
+    "name": "Esperanza Anthony",
+    "score": 232,
+    "class_name": 3
+  },
+  {
+    "school_name": "Bajool State School",
+    "name": "Carolyn Cain",
+    "score": 328,
+    "class_name": 1
+  },
+  {
+    "school_name": "Fort Street High School",
+    "name": "Patti Mueller",
+    "score": 123,
+    "class_name": 3
+  },
+  {
+    "school_name": "state central",
+    "name": "Ann Britt",
+    "score": 274,
+    "class_name": 5
+  },
+  {
+    "school_name": "Baulkham Hills High School",
+    "name": "Buck Bruce",
+    "score": 363,
+    "class_name": 3
+  },
+  {
+    "school_name": "Penrith High School",
+    "name": "Bolton Perry",
+    "score": 743,
+    "class_name": 5
+  },
+  {
+    "school_name": "Perth Modern School",
+    "name": "Craig Green",
+    "score": 465,
+    "class_name": 2
+  },
+  {
+    "school_name": "Baulkham Hills High School",
+    "name": "Pittman Nguyen",
+    "score": 229,
+    "class_name": 3
+  },
+  {
+    "school_name": "State High School",
+    "name": "Black Petersen",
+    "score": 472,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "State High School",
+    "name": "Brewer Cooke",
+    "score": 314,
+    "class_name": 3
+  },
+  {
+    "school_name": "Brsibane High",
+    "name": "Hendrix Swanson",
+    "score": 456,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "Brsibane High",
+    "name": "Hunt Woods",
+    "score": 897,
+    "class_name": 4
+  },
+  {
+    "school_name": "Varsity Collage",
+    "name": "Chase Horne",
+    "score": 424,
+    "class_name": 3
+  },
+  {
+    "school_name": "State High School",
+    "name": "Judy Kaufman",
+    "score": 62,
+    "class_name": 4
+  },
+  {
+    "school_name": "Perth Modern School",
+    "name": "Reeves Cook",
+    "score": 759,
+    "class_name": 2
+  },
+  {
+    "school_name": "Perth Modern School",
+    "name": "York Pennington",
+    "score": 352,
+    "class_name": 1
+  },
+  {
+    "school_name": "Caringbah High School",
+    "name": "Lynnette Hinton",
+    "score": 643,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "Varsity Collage",
+    "name": "Glover Le",
+    "score": 899,
+    "class_name": 3
+  },
+  {
+    "school_name": "state central",
+    "name": "Sykes Hyde",
+    "score": 295,
+    "class_name": 2
+  },
+  {
+    "school_name": "The Scots College",
+    "name": "Lynch Kirk",
+    "score": 726,
+    "class_name": 3
+  },
+  {
+    "school_name": "Bajool State School",
+    "name": "Hickman Knowles",
+    "score": 929,
+    "class_name": 2
+  },
+  {
+    "school_name": "State High School",
+    "name": "Deirdre Chen",
+    "score": 531,
+    "class_name": 5
+  },
+  {
+    "school_name": "Bajool State School",
+    "name": "Kramer Holland",
+    "score": 80,
+    "class_name": 1
+  },
+  {
+    "school_name": "Perth Modern School",
+    "name": "Glenda Reilly",
+    "score": 728,
+    "class_name": 5
+  },
+  {
+    "school_name": "Perth Modern School",
+    "name": "Gates Garrison",
+    "score": 293,
+    "class_name": 2
+  },
+  {
+    "school_name": "The Scots College",
+    "name": "Trujillo Rosales",
+    "score": 224,
+    "class_name": 1
+  },
+  {
+    "school_name": "Perth Modern School",
+    "name": "Kayla Mcfarland",
+    "score": 472,
+    "class_name": 1
+  },
+  {
+    "school_name": "Bajool State School",
+    "name": "Sanders Bridges",
+    "score": 115,
+    "class_name": 1
+  },
+  {
+    "school_name": "Perth Modern School",
+    "name": "Lynne Dillard",
+    "score": 406,
+    "class_name": 3
+  },
+  {
+    "school_name": "Caringbah High School",
+    "name": "Stevenson Cleveland",
+    "score": 595,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "Sydney Girls High School",
+    "name": "Castro Ochoa",
+    "score": 804,
+    "class_name": 1
+  },
+  {
+    "school_name": "Sydney Girls High School",
+    "name": "Bray Ashley",
+    "score": 803,
+    "class_name": 3
+  },
+  {
+    "school_name": "The Scots College",
+    "name": "Parrish Robles",
+    "score": 687,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "Fort Street High School",
+    "name": "Young Barlow",
+    "score": 201,
+    "class_name": 1
+  },
+  {
+    "school_name": "Penrith High School",
+    "name": "Nona Waller",
+    "score": 396,
+    "class_name": "Prep"
+  },
+  {
+    "school_name": "State High School",
+    "name": "Jaclyn West",
+    "score": 475,
+    "class_name": 5
+  },
+  {
+    "school_name": "State High School",
+    "name": "Chambers French",
+    "score": 386,
+    "class_name": 4
+  },
+  {
+    "school_name": "Fort Street High School",
+    "name": "Morales Blair",
+    "score": 77,
+    "class_name": 2
+  },
+  {
+    "school_name": "Baulkham Hills High School",
+    "name": "Earline Beard",
+    "score": 599,
+    "class_name": 3
+  },
+  {
+    "school_name": "State High School",
+    "name": "Wooten Bauer",
+    "score": 731,
+    "class_name": 2
+  }
+]

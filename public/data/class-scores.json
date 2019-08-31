@@ -1,0 +1,603 @@
+
+[
+    {
+      "school_name": "Fort Street High School",
+      "teacher_name": "Connie Mcknight",
+      "score": 8566,
+      "class_name": 1
+    },
+    {
+      "school_name": "Brsibane High",
+      "teacher_name": "Ratliff Wheeler",
+      "score": 6880,
+      "class_name": 5
+    },
+    {
+      "school_name": "Perth Modern School",
+      "teacher_name": "Helena Bauer",
+      "score": 9137,
+      "class_name": 4
+    },
+    {
+      "school_name": "Perth Modern School",
+      "teacher_name": "Norman Roth",
+      "score": 8129,
+      "class_name": 1
+    },
+    {
+      "school_name": "Bajool State School",
+      "teacher_name": "Jolene Bowman",
+      "score": 1055,
+      "class_name": 4
+    },
+    {
+      "school_name": "Perth Modern School",
+      "teacher_name": "Adrian Green",
+      "score": 4200,
+      "class_name": 3
+    },
+    {
+      "school_name": "Bajool State School",
+      "teacher_name": "Keith Bennett",
+      "score": 1176,
+      "class_name": 3
+    },
+    {
+      "school_name": "Bajool State School",
+      "teacher_name": "Morgan Nicholson",
+      "score": 4600,
+      "class_name": 1
+    },
+    {
+      "school_name": "Caringbah High School",
+      "teacher_name": "Mueller Nichols",
+      "score": 7776,
+      "class_name": 1
+    },
+    {
+      "school_name": "Varsity Collage",
+      "teacher_name": "Wilson Mcmillan",
+      "score": 4334,
+      "class_name": 1
+    },
+    {
+      "school_name": "State High School",
+      "teacher_name": "Amanda Espinoza",
+      "score": 9296,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Penrith High School",
+      "teacher_name": "Long Stuart",
+      "score": 9305,
+      "class_name": 5
+    },
+    {
+      "school_name": "Fort Street High School",
+      "teacher_name": "Roxie Kinney",
+      "score": 1242,
+      "class_name": 5
+    },
+    {
+      "school_name": "Caringbah High School",
+      "teacher_name": "Brock Vang",
+      "score": 7138,
+      "class_name": 2
+    },
+    {
+      "school_name": "Fort Street High School",
+      "teacher_name": "Ronda Delacruz",
+      "score": 8202,
+      "class_name": 1
+    },
+    {
+      "school_name": "Brsibane High",
+      "teacher_name": "Austin Duncan",
+      "score": 8743,
+      "class_name": 2
+    },
+    {
+      "school_name": "Bajool State School",
+      "teacher_name": "Jeannine Richard",
+      "score": 9745,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "State High School",
+      "teacher_name": "Hood Donaldson",
+      "score": 2177,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Sydney Girls High School",
+      "teacher_name": "Haley Salazar",
+      "score": 7504,
+      "class_name": 3
+    },
+    {
+      "school_name": "Sydney Girls High School",
+      "teacher_name": "Kerri Hester",
+      "score": 8446,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Baulkham Hills High School",
+      "teacher_name": "Ava Mcclure",
+      "score": 6581,
+      "class_name": 5
+    },
+    {
+      "school_name": "Brsibane High",
+      "teacher_name": "Candace Kaufman",
+      "score": 3987,
+      "class_name": 5
+    },
+    {
+      "school_name": "Varsity Collage",
+      "teacher_name": "Raymond Valencia",
+      "score": 5763,
+      "class_name": 5
+    },
+    {
+      "school_name": "State High School",
+      "teacher_name": "Moran Branch",
+      "score": 6589,
+      "class_name": 4
+    },
+    {
+      "school_name": "Baulkham Hills High School",
+      "teacher_name": "Santiago Riddle",
+      "score": 3953,
+      "class_name": 5
+    },
+    {
+      "school_name": "Baulkham Hills High School",
+      "teacher_name": "Good Quinn",
+      "score": 1786,
+      "class_name": 3
+    },
+    {
+      "school_name": "Brsibane High",
+      "teacher_name": "Laura Riley",
+      "score": 2722,
+      "class_name": 2
+    },
+    {
+      "school_name": "Perth Modern School",
+      "teacher_name": "Henry Reynolds",
+      "score": 1866,
+      "class_name": 3
+    },
+    {
+      "school_name": "The Scots College",
+      "teacher_name": "Allison Buckley",
+      "score": 4169,
+      "class_name": 1
+    },
+    {
+      "school_name": "Sydney Girls High School",
+      "teacher_name": "Hart Francis",
+      "score": 4115,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Baulkham Hills High School",
+      "teacher_name": "Hess Lindsey",
+      "score": 4197,
+      "class_name": 3
+    },
+    {
+      "school_name": "Fort Street High School",
+      "teacher_name": "Jackie Ramos",
+      "score": 2899,
+      "class_name": 5
+    },
+    {
+      "school_name": "Baulkham Hills High School",
+      "teacher_name": "Moody Carter",
+      "score": 2170,
+      "class_name": 1
+    },
+    {
+      "school_name": "Caringbah High School",
+      "teacher_name": "Marion Edwards",
+      "score": 3390,
+      "class_name": 1
+    },
+    {
+      "school_name": "Baulkham Hills High School",
+      "teacher_name": "Juana Wilcox",
+      "score": 1437,
+      "class_name": 4
+    },
+    {
+      "school_name": "Sydney Girls High School",
+      "teacher_name": "Holden Lancaster",
+      "score": 4295,
+      "class_name": 4
+    },
+    {
+      "school_name": "Penrith High School",
+      "teacher_name": "Page Wood",
+      "score": 8619,
+      "class_name": 4
+    },
+    {
+      "school_name": "Brsibane High",
+      "teacher_name": "Carrillo Martin",
+      "score": 9919,
+      "class_name": 2
+    },
+    {
+      "school_name": "Fort Street High School",
+      "teacher_name": "Maxine Ball",
+      "score": 3040,
+      "class_name": 3
+    },
+    {
+      "school_name": "Sydney Girls High School",
+      "teacher_name": "Hill Faulkner",
+      "score": 4273,
+      "class_name": 5
+    },
+    {
+      "school_name": "Brsibane High",
+      "teacher_name": "Eileen Lindsay",
+      "score": 4072,
+      "class_name": 1
+    },
+    {
+      "school_name": "Bajool State School",
+      "teacher_name": "Fitzpatrick Nguyen",
+      "score": 9816,
+      "class_name": 3
+    },
+    {
+      "school_name": "State High School",
+      "teacher_name": "Kelly Mann",
+      "score": 3383,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Penrith High School",
+      "teacher_name": "Wagner Pena",
+      "score": 3989,
+      "class_name": 3
+    },
+    {
+      "school_name": "Fort Street High School",
+      "teacher_name": "Duke Anderson",
+      "score": 1735,
+      "class_name": 5
+    },
+    {
+      "school_name": "Perth Modern School",
+      "teacher_name": "Stevens Sargent",
+      "score": 7514,
+      "class_name": 5
+    },
+    {
+      "school_name": "The Scots College",
+      "teacher_name": "Patel Patterson",
+      "score": 3897,
+      "class_name": 2
+    },
+    {
+      "school_name": "Caringbah High School",
+      "teacher_name": "Payne Harper",
+      "score": 7700,
+      "class_name": 3
+    },
+    {
+      "school_name": "Sydney Girls High School",
+      "teacher_name": "Charles Mccall",
+      "score": 1237,
+      "class_name": 4
+    },
+    {
+      "school_name": "Fort Street High School",
+      "teacher_name": "Higgins Massey",
+      "score": 2871,
+      "class_name": 1
+    },
+    {
+      "school_name": "Sydney Girls High School",
+      "teacher_name": "Carole Mcfarland",
+      "score": 6556,
+      "class_name": 4
+    },
+    {
+      "school_name": "Bajool State School",
+      "teacher_name": "Alison Durham",
+      "score": 9839,
+      "class_name": 3
+    },
+    {
+      "school_name": "Penrith High School",
+      "teacher_name": "Whitehead Duran",
+      "score": 9447,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Perth Modern School",
+      "teacher_name": "Mccormick Mcgowan",
+      "score": 2953,
+      "class_name": 2
+    },
+    {
+      "school_name": "State High School",
+      "teacher_name": "Adrienne Fitzpatrick",
+      "score": 8186,
+      "class_name": 2
+    },
+    {
+      "school_name": "The Scots College",
+      "teacher_name": "Acevedo Bradshaw",
+      "score": 3956,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Fort Street High School",
+      "teacher_name": "Janine Stevens",
+      "score": 2203,
+      "class_name": 1
+    },
+    {
+      "school_name": "Caringbah High School",
+      "teacher_name": "Althea Cervantes",
+      "score": 9026,
+      "class_name": 3
+    },
+    {
+      "school_name": "Bajool State School",
+      "teacher_name": "Roslyn Willis",
+      "score": 3880,
+      "class_name": 1
+    },
+    {
+      "school_name": "Fort Street High School",
+      "teacher_name": "Carmen Larsen",
+      "score": 2102,
+      "class_name": 1
+    },
+    {
+      "school_name": "Perth Modern School",
+      "teacher_name": "Cecilia Sweet",
+      "score": 2581,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "State High School",
+      "teacher_name": "Howard Bird",
+      "score": 2409,
+      "class_name": 1
+    },
+    {
+      "school_name": "State High School",
+      "teacher_name": "Norris Rios",
+      "score": 5496,
+      "class_name": 1
+    },
+    {
+      "school_name": "State High School",
+      "teacher_name": "Annette Ashley",
+      "score": 1686,
+      "class_name": 3
+    },
+    {
+      "school_name": "Caringbah High School",
+      "teacher_name": "Debbie George",
+      "score": 3114,
+      "class_name": 5
+    },
+    {
+      "school_name": "Perth Modern School",
+      "teacher_name": "Garrison Lewis",
+      "score": 9911,
+      "class_name": 4
+    },
+    {
+      "school_name": "Penrith High School",
+      "teacher_name": "Gordon Dunlap",
+      "score": 9674,
+      "class_name": 4
+    },
+    {
+      "school_name": "Perth Modern School",
+      "teacher_name": "Byrd Frye",
+      "score": 1400,
+      "class_name": 1
+    },
+    {
+      "school_name": "Bajool State School",
+      "teacher_name": "Carolina Fitzgerald",
+      "score": 6252,
+      "class_name": 3
+    },
+    {
+      "school_name": "The Scots College",
+      "teacher_name": "Atkins Tucker",
+      "score": 1565,
+      "class_name": 2
+    },
+    {
+      "school_name": "Baulkham Hills High School",
+      "teacher_name": "Taylor Cooper",
+      "score": 5890,
+      "class_name": 1
+    },
+    {
+      "school_name": "Fort Street High School",
+      "teacher_name": "Reese Barrett",
+      "score": 6695,
+      "class_name": 5
+    },
+    {
+      "school_name": "Bajool State School",
+      "teacher_name": "Ingrid Miranda",
+      "score": 6825,
+      "class_name": 1
+    },
+    {
+      "school_name": "Fort Street High School",
+      "teacher_name": "Shelby Kim",
+      "score": 7586,
+      "class_name": 4
+    },
+    {
+      "school_name": "Varsity Collage",
+      "teacher_name": "Vaughan Church",
+      "score": 9497,
+      "class_name": 2
+    },
+    {
+      "school_name": "state central",
+      "teacher_name": "Gail Hoover",
+      "score": 6912,
+      "class_name": 3
+    },
+    {
+      "school_name": "The Scots College",
+      "teacher_name": "Chandler Melendez",
+      "score": 1801,
+      "class_name": 2
+    },
+    {
+      "school_name": "Penrith High School",
+      "teacher_name": "Lora Stein",
+      "score": 3390,
+      "class_name": 5
+    },
+    {
+      "school_name": "state central",
+      "teacher_name": "Kathleen Guerrero",
+      "score": 8330,
+      "class_name": 2
+    },
+    {
+      "school_name": "Sydney Girls High School",
+      "teacher_name": "Rosanna Malone",
+      "score": 8779,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Fort Street High School",
+      "teacher_name": "Alford Jacobson",
+      "score": 1583,
+      "class_name": 3
+    },
+    {
+      "school_name": "Sydney Girls High School",
+      "teacher_name": "Marci Gaines",
+      "score": 8911,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Varsity Collage",
+      "teacher_name": "Joanna Gomez",
+      "score": 1572,
+      "class_name": 2
+    },
+    {
+      "school_name": "Perth Modern School",
+      "teacher_name": "Angelica Strickland",
+      "score": 1306,
+      "class_name": 3
+    },
+    {
+      "school_name": "Caringbah High School",
+      "teacher_name": "Brooke Walls",
+      "score": 5598,
+      "class_name": 2
+    },
+    {
+      "school_name": "Perth Modern School",
+      "teacher_name": "Flossie Vargas",
+      "score": 9229,
+      "class_name": 5
+    },
+    {
+      "school_name": "Caringbah High School",
+      "teacher_name": "Dionne Ryan",
+      "score": 2993,
+      "class_name": 2
+    },
+    {
+      "school_name": "Perth Modern School",
+      "teacher_name": "Carpenter Galloway",
+      "score": 8119,
+      "class_name": 1
+    },
+    {
+      "school_name": "Caringbah High School",
+      "teacher_name": "Heidi Hart",
+      "score": 3392,
+      "class_name": 3
+    },
+    {
+      "school_name": "Fort Street High School",
+      "teacher_name": "Dollie Lowery",
+      "score": 9717,
+      "class_name": 2
+    },
+    {
+      "school_name": "Sydney Girls High School",
+      "teacher_name": "Clara Bright",
+      "score": 7228,
+      "class_name": 5
+    },
+    {
+      "school_name": "state central",
+      "teacher_name": "Houston Lynn",
+      "score": 2756,
+      "class_name": 4
+    },
+    {
+      "school_name": "Brsibane High",
+      "teacher_name": "Angelita Slater",
+      "score": 1045,
+      "class_name": 2
+    },
+    {
+      "school_name": "Varsity Collage",
+      "teacher_name": "Casey Mueller",
+      "score": 3087,
+      "class_name": 4
+    },
+    {
+      "school_name": "Varsity Collage",
+      "teacher_name": "Perez Roach",
+      "score": 5084,
+      "class_name": 2
+    },
+    {
+      "school_name": "Penrith High School",
+      "teacher_name": "Torres Zimmerman",
+      "score": 5306,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Baulkham Hills High School",
+      "teacher_name": "Wilda Long",
+      "score": 2246,
+      "class_name": 1
+    },
+    {
+      "school_name": "Perth Modern School",
+      "teacher_name": "Erin Bell",
+      "score": 3456,
+      "class_name": 2
+    },
+    {
+      "school_name": "Penrith High School",
+      "teacher_name": "Lara Pearson",
+      "score": 2683,
+      "class_name": 5
+    },
+    {
+      "school_name": "Baulkham Hills High School",
+      "teacher_name": "Suzette Daniels",
+      "score": 1459,
+      "class_name": "Prep"
+    }
+  ]
