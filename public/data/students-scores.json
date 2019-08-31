@@ -1,0 +1,702 @@
+[
+    {
+      "school_name": "State Central",
+      "first_name": "Bobbie",
+      "last_name": "Nichols",
+      "score": 915,
+      "class_name": 5
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Edwards",
+      "last_name": "Hernandez",
+      "score": 999,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Bobbi",
+      "last_name": "Rowe",
+      "score": 262,
+      "class_name": 2
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Shelby",
+      "last_name": "Mccormick",
+      "score": 985,
+      "class_name": 4
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "June",
+      "last_name": "Wright",
+      "score": 935,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Eleanor",
+      "last_name": "Strong",
+      "score": 309,
+      "class_name": 4
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Romero",
+      "last_name": "Witt",
+      "score": 179,
+      "class_name": 5
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Sadie",
+      "last_name": "Noel",
+      "score": 856,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Selma",
+      "last_name": "Spencer",
+      "score": 543,
+      "class_name": 2
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Armstrong",
+      "last_name": "Wilkinson",
+      "score": 831,
+      "class_name": 4
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Langley",
+      "last_name": "Waters",
+      "score": 645,
+      "class_name": 1
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Jeanine",
+      "last_name": "Lambert",
+      "score": 886,
+      "class_name": 4
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Moses",
+      "last_name": "Jarvis",
+      "score": 599,
+      "class_name": 3
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Mae",
+      "last_name": "Harrison",
+      "score": 934,
+      "class_name": 3
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Rhea",
+      "last_name": "Livingston",
+      "score": 890,
+      "class_name": 5
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Marks",
+      "last_name": "Camacho",
+      "score": 466,
+      "class_name": 2
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Kerr",
+      "last_name": "Houston",
+      "score": 400,
+      "class_name": 1
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Callie",
+      "last_name": "Whitney",
+      "score": 922,
+      "class_name": 1
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Cannon",
+      "last_name": "Kinney",
+      "score": 604,
+      "class_name": 2
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Rosie",
+      "last_name": "Hunt",
+      "score": 656,
+      "class_name": 2
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Virgie",
+      "last_name": "Trujillo",
+      "score": 642,
+      "class_name": 4
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Greene",
+      "last_name": "Fuentes",
+      "score": 625,
+      "class_name": 5
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Church",
+      "last_name": "Allison",
+      "score": 781,
+      "class_name": 3
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Oconnor",
+      "last_name": "Strickland",
+      "score": 771,
+      "class_name": 1
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Foreman",
+      "last_name": "Evans",
+      "score": 490,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Barrera",
+      "last_name": "Huber",
+      "score": 432,
+      "class_name": 4
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Petersen",
+      "last_name": "Oneil",
+      "score": 482,
+      "class_name": 3
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Doris",
+      "last_name": "Gould",
+      "score": 291,
+      "class_name": 2
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Clarice",
+      "last_name": "Knowles",
+      "score": 50,
+      "class_name": 5
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Oneill",
+      "last_name": "Benjamin",
+      "score": 268,
+      "class_name": 2
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Boone",
+      "last_name": "Mooney",
+      "score": 233,
+      "class_name": 4
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Debra",
+      "last_name": "Berger",
+      "score": 246,
+      "class_name": 4
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Powell",
+      "last_name": "Gay",
+      "score": 974,
+      "class_name": 1
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Stefanie",
+      "last_name": "Leach",
+      "score": 656,
+      "class_name": 5
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Hughes",
+      "last_name": "Gallagher",
+      "score": 120,
+      "class_name": 1
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Krystal",
+      "last_name": "Calderon",
+      "score": 459,
+      "class_name": 3
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Marion",
+      "last_name": "Kelly",
+      "score": 72,
+      "class_name": 1
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Ofelia",
+      "last_name": "Cardenas",
+      "score": 864,
+      "class_name": 2
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Eva",
+      "last_name": "Finch",
+      "score": 937,
+      "class_name": 2
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Gina",
+      "last_name": "Riggs",
+      "score": 282,
+      "class_name": 5
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Silva",
+      "last_name": "Lester",
+      "score": 805,
+      "class_name": 1
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Sonya",
+      "last_name": "Goodwin",
+      "score": 597,
+      "class_name": 1
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Josie",
+      "last_name": "Coleman",
+      "score": 258,
+      "class_name": 1
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Goodwin",
+      "last_name": "Mcclain",
+      "score": 265,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Schroeder",
+      "last_name": "Ball",
+      "score": 663,
+      "class_name": 4
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Becky",
+      "last_name": "Atkinson",
+      "score": 206,
+      "class_name": 3
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Rene",
+      "last_name": "Bradford",
+      "score": 997,
+      "class_name": 3
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Nina",
+      "last_name": "Underwood",
+      "score": 651,
+      "class_name": 1
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Blanche",
+      "last_name": "Burch",
+      "score": 671,
+      "class_name": 5
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Reed",
+      "last_name": "Steele",
+      "score": 173,
+      "class_name": 2
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Gamble",
+      "last_name": "Castillo",
+      "score": 500,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Sawyer",
+      "last_name": "Sloan",
+      "score": 406,
+      "class_name": 5
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Wilder",
+      "last_name": "Barr",
+      "score": 286,
+      "class_name": 5
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Nancy",
+      "last_name": "Phelps",
+      "score": 983,
+      "class_name": 2
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Claire",
+      "last_name": "Campos",
+      "score": 665,
+      "class_name": 4
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Moore",
+      "last_name": "Schmidt",
+      "score": 141,
+      "class_name": 5
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Mai",
+      "last_name": "Byers",
+      "score": 81,
+      "class_name": 2
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Leila",
+      "last_name": "Martinez",
+      "score": 859,
+      "class_name": 2
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Stein",
+      "last_name": "Hurst",
+      "score": 356,
+      "class_name": 5
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Rivas",
+      "last_name": "Cummings",
+      "score": 563,
+      "class_name": 4
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Alberta",
+      "last_name": "Gregory",
+      "score": 915,
+      "class_name": 4
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Wilkinson",
+      "last_name": "Wilcox",
+      "score": 193,
+      "class_name": 1
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Madeleine",
+      "last_name": "Rasmussen",
+      "score": 149,
+      "class_name": 2
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Watkins",
+      "last_name": "Alvarado",
+      "score": 899,
+      "class_name": 4
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Lowe",
+      "last_name": "Fisher",
+      "score": 765,
+      "class_name": 2
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Mayra",
+      "last_name": "Carter",
+      "score": 458,
+      "class_name": 5
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Esperanza",
+      "last_name": "Anderson",
+      "score": 464,
+      "class_name": 1
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Lucinda",
+      "last_name": "Miranda",
+      "score": 441,
+      "class_name": 2
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Mason",
+      "last_name": "Wells",
+      "score": 954,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Katelyn",
+      "last_name": "Doyle",
+      "score": 322,
+      "class_name": 5
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Mathews",
+      "last_name": "Park",
+      "score": 680,
+      "class_name": 2
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Isabella",
+      "last_name": "Michael",
+      "score": 770,
+      "class_name": 2
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Hurst",
+      "last_name": "Hensley",
+      "score": 735,
+      "class_name": 2
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Glenn",
+      "last_name": "Drake",
+      "score": 104,
+      "class_name": 5
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Reynolds",
+      "last_name": "Webster",
+      "score": 164,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Pam",
+      "last_name": "Stephenson",
+      "score": 689,
+      "class_name": 2
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Tami",
+      "last_name": "Stephens",
+      "score": 656,
+      "class_name": 3
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Robin",
+      "last_name": "Wilder",
+      "score": 552,
+      "class_name": 5
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Riddle",
+      "last_name": "Pate",
+      "score": 643,
+      "class_name": 1
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Cummings",
+      "last_name": "Nixon",
+      "score": 825,
+      "class_name": 2
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Melinda",
+      "last_name": "Key",
+      "score": 788,
+      "class_name": 1
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Sheri",
+      "last_name": "Holloway",
+      "score": 854,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Lottie",
+      "last_name": "Mejia",
+      "score": 688,
+      "class_name": 1
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Tamera",
+      "last_name": "Chase",
+      "score": 142,
+      "class_name": 4
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Nadine",
+      "last_name": "English",
+      "score": 996,
+      "class_name": 3
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Tanisha",
+      "last_name": "Ramos",
+      "score": 950,
+      "class_name": 5
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Kayla",
+      "last_name": "Beard",
+      "score": 79,
+      "class_name": 2
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Kerri",
+      "last_name": "Rosa",
+      "score": 598,
+      "class_name": 2
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Sharron",
+      "last_name": "Larson",
+      "score": 911,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Barker",
+      "last_name": "Wolf",
+      "score": 104,
+      "class_name": 5
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Kate",
+      "last_name": "Goff",
+      "score": 315,
+      "class_name": 1
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Juliet",
+      "last_name": "Nolan",
+      "score": 799,
+      "class_name": 1
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Waters",
+      "last_name": "Hawkins",
+      "score": 802,
+      "class_name": 4
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Celeste",
+      "last_name": "Mcdonald",
+      "score": 643,
+      "class_name": 5
+    },
+    {
+      "school_name": "Brsibane High",
+      "first_name": "Dorothy",
+      "last_name": "Dillon",
+      "score": 650,
+      "class_name": "Prep"
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Sheila",
+      "last_name": "Hartman",
+      "score": 888,
+      "class_name": 3
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Katharine",
+      "last_name": "Hardin",
+      "score": 729,
+      "class_name": 3
+    },
+    {
+      "school_name": "State High School",
+      "first_name": "Mcdonald",
+      "last_name": "Richardson",
+      "score": 923,
+      "class_name": 5
+    },
+    {
+      "school_name": "Varsity Collage",
+      "first_name": "Blackwell",
+      "last_name": "Blankenship",
+      "score": 265,
+      "class_name": 2
+    },
+    {
+      "school_name": "State Central",
+      "first_name": "Huffman",
+      "last_name": "Medina",
+      "score": 696,
+      "class_name": 2
+    }
+  ]

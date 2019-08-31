@@ -1,0 +1,37 @@
+import React , {Component} from 'react';
+import StudentData from '../data/scores.json';
+import { Button, Table } from 'react-bootstrap';
+
+class StudentList extends Component {
+    render(){
+        return (
+            <Table striped bordered condensed="true" hover className="studentTable">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Class</th>
+                        <th>School</th>
+                        <th>Score</th>
+                        <th>Rank</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {StudentData.map((studentDetail, index)=>{ 
+                        return <tr key={studentDetail.first_name}> 
+                                <td>{index + 1}</td>
+                                <td>{studentDetail.first_name}</td>
+                                <td>{studentDetail.last_name}</td>
+                                <td>{studentDetail.class}</td>
+                                <td>{studentDetail.school_name}</td>
+                                <td>{studentDetail.score}</td>
+                                <td>{studentDetail.rank}</td>
+                            </tr> 
+                    })}
+                </tbody>
+            </Table>
+        );
+}}
+
+export default StudentList;
