@@ -1,6 +1,7 @@
 import React , {Component} from 'react';
 import StudentList from '../students/StudentList';
 import ClassList from '../class/ClassList';
+import SchoolList from '../school/SchoolList';
 import { Tab, Row, Col, Nav } from 'react-bootstrap';
 
 class Leaderboards extends Component {
@@ -31,7 +32,7 @@ class Leaderboards extends Component {
                     <ClassList/>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
-                    School Leaderboard
+                    <SchoolList/>
                   </Tab.Pane>
                 </Tab.Content>
               </Col>

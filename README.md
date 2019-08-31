@@ -15,7 +15,7 @@ Each leaderboards have details like Name, Score & Rank which is the most importa
 
 The leaderboards will be fluid design and some columns gets hidden for smaller resolutions.
 
-## --------------------------------
+## 
 
 Mock json data for all 3 types of leaderboard. json data can hold 100’s of users but the leaderboard will display top 10 in each leaderboard.
 
@@ -23,7 +23,7 @@ The scores in the leaderboard random every 15 minutes and rank will be dynamical
 
 The leaderboard will be sorted by rank in ascending order by default.
 
-## ------------------------------
+## 
 
 All leaderboard will refresh every 15 minutes with new random scores.
 

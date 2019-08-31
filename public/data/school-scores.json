@@ -1,122 +1,74 @@
 [
     {
-        "school_name": "Brsibane High",
-        "school_details": [
-          {
-            "admin_name": "Brandie Mcgee",
-            "school_address": "Gold Coast, QLD",
-            "score": 95608
-          }
-        ]
-      },
-      {
-        "school_name": "state central",
-        "school_details": [
-          {
-            "admin_name": "Mcintosh Nelson",
-            "school_address": "Brsibane, QLD",
-            "score": 24623
-          }
-        ]
-      },
-      {
-        "school_name": "Brsibane High",
-        "school_details": [
-          {
-            "admin_name": "Burch Whitfield",
-            "school_address": "Gold Coast, QLD",
-            "score": 39648
-          }
-        ]
-      },
-      {
-        "school_name": "Varsity Collage",
-        "school_details": [
-          {
-            "admin_name": "Spencer Bridges",
-            "school_address": "Gold Coast, QLD",
-            "score": 90993
-          }
-        ]
-      },
-      {
-        "school_name": "Baulkham Hills High School",
-        "school_details": [
-          {
-            "admin_name": "Burton Davenport",
-            "school_address": "Sydney, NSW",
-            "score": 69391
-          }
-        ]
-      },
-      {
-        "school_name": "Modern School",
-        "school_details": [
-          {
-            "admin_name": "Ollie Rosario",
-            "school_address": "Sydney, NSW",
-            "score": 71970
-          }
-        ]
-      },
-      {
-        "school_name": "Baulkham Hills High School",
-        "school_details": [
-          {
-            "admin_name": "Powers Holman",
-            "school_address": "Sydney, NSW",
-            "score": 73550
-          }
-        ]
-      },
-      {
-        "school_name": "Modern School",
-        "school_details": [
-          {
-            "admin_name": "Hickman Humphrey",
-            "school_address": "Sydney, NSW",
-            "score": 48453
-          }
-        ]
-      },
-      {
-        "school_name": "Fort Street High School",
-        "school_details": [
-          {
-            "admin_name": "Puckett Bowman",
-            "school_address": "Melbourne, VIC",
-            "score": 73487
-          }
-        ]
-      },
-      {
-        "school_name": "Caringbah High School",
-        "school_details": [
-          {
-            "admin_name": "Fern Wise",
-            "school_address": "Melbourne, VIC",
-            "score": 64045
-          }
-        ]
-      },
-      {
-        "school_name": "Bajool State School",
-        "school_details": [
-          {
-            "admin_name": "Robin Haley",
-            "school_address": "Melbourne, VIC",
-            "score": 81526
-          }
-        ]
-      },
-      {
-        "school_name": "The Scots College",
-        "school_details": [
-          {
-            "admin_name": "Velma Lott",
-            "school_address": "Melbourne, VIC",
-            "score": 54733
-          }
-        ]
-      }
-  ]
+       "school_name":"Brsibane High",
+       "admin_name":"Brandie Mcgee",
+       "school_address":"Gold Coast, QLD",
+       "score":95608
+    },
+    {
+       "school_name":"state central",
+       "admin_name":"Mcintosh Nelson",
+       "school_address":"Brsibane, QLD",
+       "score":24623
+    },
+    {
+       "school_name":"Gold Coast Primary",
+       "admin_name":"Burch Whitfield",
+       "school_address":"Gold Coast, QLD",
+       "score":39648
+    },
+    {
+       "school_name":"Varsity Collage",
+       "admin_name":"Spencer Bridges",
+       "school_address":"Gold Coast, QLD",
+       "score":90993
+    },
+    {
+       "school_name":"Baulkham Hills High School",
+       "admin_name":"Burton Davenport",
+       "school_address":"Sydney, NSW",
+       "score":69391
+    },
+    {
+       "school_name":"Modern School",
+       "admin_name":"Ollie Rosario",
+       "school_address":"Sydney, NSW",
+       "score":71970
+    },
+    {
+       "school_name":"Hills High School",
+       "admin_name":"Powers Holman",
+       "school_address":"Sydney, NSW",
+       "score":73550
+    },
+    {
+       "school_name":"Modern School",
+       "admin_name":"Hickman Humphrey",
+       "school_address":"Sydney, NSW",
+       "score":48453
+    },
+    {
+       "school_name":"Fort Street High School",
+       "admin_name":"Puckett Bowman",
+       "school_address":"Melbourne, VIC",
+       "score":73487
+    },
+    {
+       "school_name":"Caringbah High School",
+       "admin_name":"Fern Wise",
+       "school_address":"Melbourne, VIC",
+       "score":64045
+    },
+    {
+       "school_name":"Bajool State School",
+       "admin_name":"Robin Haley",
+       "school_address":"Melbourne, VIC",
+       "score":81526
+    },
+    {
+       "school_name":"The Scots College",
+       "admin_name":"Velma Lott",
+       "school_address":"Melbourne, VIC",
+       "score":54733
+    }
+ ]
