@@ -42,6 +42,7 @@ npm install
 
 npm start
 
+change REACT_APP_REFRESH_RATE value in .env to increase or dicrease JSON data caching duration
 
 ## Used tools
 https://www.json-generator.com

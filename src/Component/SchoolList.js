@@ -2,8 +2,6 @@ import React , {Component} from 'react';
 import service from '../Services/service';
 import DataTable from 'react-data-table-component';
 
-let timeOut = process.env.REACT_APP_REFRESH_RATE; 
-
 const columns = [
     {
       name: 'Rank',
