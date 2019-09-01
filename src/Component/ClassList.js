@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import service from '../Services/service';
 import DataTable from 'react-data-table-component';
 
-let timeOut = 15000;
+let timeOut = process.env.REACT_APP_REFRESH_RATE; 
 
 const columns = [
     {
@@ -44,7 +44,7 @@ class ClassList extends Component {
         this.interval = setInterval(() => {
             localStorage.clear();
             this.getData();
-        }, timeOut);
+        }, process.env.REACT_APP_REFRESH_RATE);
     }
 
     
