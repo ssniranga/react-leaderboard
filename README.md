@@ -65,4 +65,13 @@ Component > ClassList.js, SchoolList.js, StudentList.js
 Component > LeaderBoard.js
     Used to display all three Leaderboards
 
+##
+
+All the sample JSON data stored in publc > data 
+
+Data will fecth automaltically as per the time set in .env REACT_APP_REFRESH_RATE
+
+Data is cached until the next cycle (REACT_APP_REFRESH_RATE)
+
+Even if you change the JSON DATA and refresh the page, it does not display until the next cycle (REACT_APP_REFRESH_RATE)
 
