@@ -25,7 +25,7 @@ The leaderboard will be sorted by rank in ascending order by default.
 
 ## 
 
-All leaderboard will refresh every 15 minutes with new random scores.
+All leaderboard will refresh every 15 minutes with new generated data scores.
 
 The score columns will be sortable columns in all 3 leaderboard.
 
@@ -52,4 +52,17 @@ axios
 react-bootstrap
 
 react-data-table-component
+
+## 
+
+Service > service.js
+    Used to fecth JSON data as per the scores request (Student, Class, School) 
+    Get the top 10 scores and sort
+
+Component > ClassList.js, SchoolList.js, StudentList.js
+    Used to create each dashboard
+
+Component > LeaderBoard.js
+    Used to display all three Leaderboards
+
 
