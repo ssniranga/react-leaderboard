@@ -38,7 +38,7 @@ have used local storage for caching purposes.
 
 get the repo
 
-composer install
+npm install
 
 npm start
 

@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Leaderboards from './leaderboard/LeaderBoards';
-
+import LeaderBoards from './Component/LeaderBoards';
 
 
 function App() {
   return (
     <div className="App container">
-      <Leaderboards/>
+      <LeaderBoards/>
     </div>
   );
 }

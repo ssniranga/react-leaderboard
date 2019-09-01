@@ -1,10 +1,10 @@
 import React , {Component} from 'react';
-import StudentList from '../students/StudentList';
-import ClassList from '../class/ClassList';
-import SchoolList from '../school/SchoolList';
+import StudentList from './StudentList';
+import ClassList from './ClassList';
+import SchoolList from './SchoolList';
 import { Tab, Row, Col, Nav } from 'react-bootstrap';
 
-class Leaderboards extends Component {
+class LeaderBoards extends Component {
     render(){
         return (
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
@@ -41,4 +41,4 @@ class Leaderboards extends Component {
         );
     }
 }
-export default Leaderboards;
+export default LeaderBoards;
