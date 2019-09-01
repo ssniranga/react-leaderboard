@@ -1,8 +1,9 @@
 import React , {Component} from 'react';
-import axios from 'axios';
+import service from '../Services/service';
 import DataTable from 'react-data-table-component';
 
 let timeOut = 15000; 
+
 const columns = [
     {
       name: 'Rank',
@@ -34,57 +35,35 @@ class StudentList extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            StudentData: []
+            data: []
         };
       }
 
-    componentDidMount() {
-        this.getStudentData();
+ 
+      componentDidMount() {
+        this.getData();
         this.interval = setInterval(() => {
-            this.getStudentData();
             localStorage.clear();
-            console.log("a");
+            this.getData();
         }, timeOut);
     }
 
-    getStudentData() {
-        if (localStorage.getItem('studentCacheData')){
-            let sData =JSON.parse(localStorage.getItem('studentCacheData'));
-            this.setState({               
-                StudentData: sData.slice(0,10)
-            });
-            console.log("student cached");
-        }
-        else{
-            axios.get("../data/students-scores.json")
-            .then(res => {
-                let sData = res.data; 
-                sData.sort(function(a, b){return b.score - a.score});
-                this.setState({               
-                    StudentData: sData.slice(0,10)
-                });
-                localStorage.setItem('studentCacheData', JSON.stringify(res.data));
-            });
-            console.log("student non cached");
-        }
-    }
-     componentWillUnmount() {
-       clearInterval(this.interval);
-     }
-
-     _getStudents() {
-        const data = this.state.StudentData;
-        const stuItems = data.map((student, index) => (
-            {   
+    async getData() {
+        const data = await service('../data/students-scores.json');
+        this.setState({
+            data: data.map((student, index) => ({
                 rank : index + 1 , 
                 name : student.name,
                 class: student.class_name, 
                 school: student.school_name, 
-                score:student.score   
-            }
-        ));
-        return stuItems;
+                score:student.score  
+            }))
+        });
     }
+
+     componentWillUnmount() {
+       clearInterval(this.interval);
+     }
 
      render(){
         return (
@@ -96,7 +75,7 @@ class StudentList extends Component {
                     pointerOnHover
                     striped
                     className="student-table"
-                    data={this._getStudents()}
+                    data={this.state.data}
                 />
             </div>
     );

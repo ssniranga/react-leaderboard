@@ -31,7 +31,7 @@ The score columns will be sortable columns in all 3 leaderboard.
 
 Even if you refresh the page, it will be cached within the 15 minutes cycle since the last generated time. 
 
-have used local storage for caching purposes.
+Have used local storage for caching purposes.
 
 
 ## How to
@@ -50,5 +50,5 @@ axios
 
 react-bootstrap
 
-react-data-table-componen
+react-data-table-component
 
