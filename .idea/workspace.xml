@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a421b651-d59a-4702-9c7e-0b21d7ca9060" name="Default" comment="fix school address">
+    <list default="true" id="a421b651-d59a-4702-9c7e-0b21d7ca9060" name="Default" comment="Read me">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
-  </component>
+  <component name="ProjectId" id="1QGD6nWLOhLbiUaQb82WsGF7rl5" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -60,7 +55,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567135136985</updated>
-      <workItem from="1567383946496" duration="557000" />
+      <workItem from="1567383946496" duration="1201000" />
+      <workItem from="1567387870595" duration="3000" />
+      <workItem from="1567389380332" duration="46000" />
+      <workItem from="1567395528743" duration="3000" />
+      <workItem from="1567396258805" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="fix school address">
       <created>1567384174794</created>
@@ -69,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567384174794</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Read me">
+      <created>1567384512938</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567384512938</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,7 +86,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -96,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix school address" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix school address" />
+    <MESSAGE value="Read me" />
+    <option name="LAST_COMMIT_MESSAGE" value="Read me" />
   </component>
 </project>
