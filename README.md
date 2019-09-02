@@ -67,7 +67,7 @@ Component > LeaderBoard.js
 
 ##
 
-All the sample JSON data stored in publc > data 
+All the sample JSON data stored in public > data 
 
 Data will fecth automaltically as per the time set in .env REACT_APP_REFRESH_RATE
 
