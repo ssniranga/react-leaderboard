@@ -9,14 +9,15 @@ class Students {
 
 class Classes {
     static async all() {
-       let res = await axios.get('../data/class-scores.json').then(resp => resp.data);
-       return res;
+       let resC = await axios.get('../data/class-scores.json').then(respC => respC.data);
+       return resC;
      }
 }
+
 class Schools {
     static async all() {
-       let res = await axios.get('../data/school-scores.json').then(resp => resp.data);
-       return res;
+       let resS = await axios.get('../data/school-scores.json').then(respS => respS.data);
+       return resS;
      }
 }
 
@@ -31,7 +32,7 @@ test('Should fetch Students', () => {
     }];
 
     const resp = { data : students };
-    //axios.get.mockResolvedValue(resp);
+ 
     axios.get.mockImplementation(() => Promise.resolve(resp));
 
     return Students.all().then(data => expect(data).toEqual(students));
@@ -47,11 +48,11 @@ test('Should fetch Classes', () => {
         "class_name": 1
       }];
 
-    const resp = { data : classes };
+    const respC = { data : classes };
 
-    axios.get.mockImplementation(() => Promise.resolve(resp));
+    axios.get.mockImplementation(() => Promise.resolve(respC));
 
-    Classes.all().then(resp => expect(resp.data).toEqual(classes));
+    Classes.all().then(resp => expect(respC.data).toEqual(classes));
 });
 
 test('Should fetch Schools', () => {
@@ -62,10 +63,10 @@ test('Should fetch Schools', () => {
         "score":95608
      }];
 
-    const resp = { data : schools };
+    const respS = { data : schools };
 
-    axios.get.mockImplementation(() => Promise.resolve(resp));
+    axios.get.mockImplementation(() => Promise.resolve(respS));
 
-    Schools.all().then(resp => expect(resp.data).toEqual(schools));
+    Schools.all().then(resp => expect(respS.data).toEqual(schools));
     
 });
