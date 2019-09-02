@@ -53,8 +53,8 @@ class SchoolList extends Component {
             data: data.map((school, index) => ({
                 rank : index + 1 , 
                 admin_name : school.admin_name,
-                school: school.school_name, 
-                address: school.address, 
+                school: school.school_name,
+                school_address: school.school_address,
                 score:school.score   
             }))
         });
@@ -79,5 +79,6 @@ class SchoolList extends Component {
             </div>
     );
 }}
+
 
 export default SchoolList;
