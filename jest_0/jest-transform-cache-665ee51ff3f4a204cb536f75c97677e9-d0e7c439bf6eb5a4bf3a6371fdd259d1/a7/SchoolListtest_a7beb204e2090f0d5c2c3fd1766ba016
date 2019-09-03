@@ -1,0 +1,25 @@
+3fe35df08d155ca441c8bc37e87a529b
+"use strict";
+
+var _interopRequireDefault = require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _enzyme = require("enzyme");
+
+var _SchoolList = _interopRequireDefault(require("../Component/SchoolList"));
+
+var _jsxFileName = "/var/www/html/react-leaderboard/src/__tests__/SchoolList.test.js";
+describe("ComponentName", function () {
+  it("should render my component", function () {
+    var wrapper = (0, _enzyme.render)(_react["default"].createElement(_SchoolList["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: this
+    }));
+    expect(wrapper).toMatchSnapshot();
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlNjaG9vbExpc3QudGVzdC5qcyJdLCJuYW1lcyI6WyJkZXNjcmliZSIsIml0Iiwid3JhcHBlciIsImV4cGVjdCIsInRvTWF0Y2hTbmFwc2hvdCJdLCJtYXBwaW5ncyI6Ijs7OztBQUFBOztBQUNBOztBQUNBOzs7QUFHQUEsUUFBUSxDQUFDLGVBQUQsRUFBa0IsWUFBTTtBQUM1QkMsRUFBQUEsRUFBRSxDQUFDLDRCQUFELEVBQStCLFlBQU07QUFDdkMsUUFBTUMsT0FBTyxHQUFHLG9CQUFPLGdDQUFDLHNCQUFEO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE1BQVAsQ0FBaEI7QUFFRUMsSUFBQUEsTUFBTSxDQUFDRCxPQUFELENBQU4sQ0FBZ0JFLGVBQWhCO0FBQ0QsR0FKQyxDQUFGO0FBS0gsQ0FOTyxDQUFSIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IHNoYWxsb3csIG1vdW50LCByZW5kZXIgfSBmcm9tICdlbnp5bWUnO1xuaW1wb3J0IFNjaG9vbExpc3QgZnJvbSBcIi4uL0NvbXBvbmVudC9TY2hvb2xMaXN0XCI7XG5cblxuZGVzY3JpYmUoXCJDb21wb25lbnROYW1lXCIsICgpID0+IHtcbiAgICBpdChcInNob3VsZCByZW5kZXIgbXkgY29tcG9uZW50XCIsICgpID0+IHtcbiAgICBjb25zdCB3cmFwcGVyID0gcmVuZGVyKDxTY2hvb2xMaXN0IC8+KTtcblxuICAgICAgZXhwZWN0KHdyYXBwZXIpLnRvTWF0Y2hTbmFwc2hvdCgpO1xuICAgIH0pO1xufSk7Il19

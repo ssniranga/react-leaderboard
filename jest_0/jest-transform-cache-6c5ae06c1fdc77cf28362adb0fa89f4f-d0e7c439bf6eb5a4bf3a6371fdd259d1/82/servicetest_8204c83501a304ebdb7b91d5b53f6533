@@ -1,0 +1,29 @@
+60b3ea23eabbcf8936954c887c255d9b
+jest.mock('axios');
+
+const axios = require('axios');
+
+test('should fetch users', () => {
+  const users = [{
+    "school_name": "state central",
+    "name": "alyce fischer",
+    "score": 995,
+    "class_name": 1
+  }, {
+    "school_name": "Sydney Girls High School",
+    "name": "Lara Walls",
+    "score": 709,
+    "class_name": 4
+  }, {
+    "school_name": "Fort Street High School",
+    "name": "Jenifer Mills",
+    "score": 55,
+    "class_name": "Prep"
+  }];
+  const resp = {
+    data: users
+  };
+  axios.get.mockImplementation(() => Promise.resolve(resp));
+  Users.all().then(resp => expect(resp.data).toEqual(users));
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZpY2UudGVzdC5qcyJdLCJuYW1lcyI6WyJqZXN0IiwibW9jayIsImF4aW9zIiwicmVxdWlyZSIsInRlc3QiLCJ1c2VycyIsInJlc3AiLCJkYXRhIiwiZ2V0IiwibW9ja0ltcGxlbWVudGF0aW9uIiwiUHJvbWlzZSIsInJlc29sdmUiLCJVc2VycyIsImFsbCIsInRoZW4iLCJleHBlY3QiLCJ0b0VxdWFsIl0sIm1hcHBpbmdzIjoiQUFFQUEsSUFBSSxDQUFDQyxJQUFMLENBQVUsT0FBVjs7QUFGQSxNQUFNQyxLQUFLLEdBQUdDLE9BQU8sQ0FBQyxPQUFELENBQXJCOztBQUlBQyxJQUFJLENBQUMsb0JBQUQsRUFBdUIsTUFBTTtBQUVqQyxRQUFNQyxLQUFLLEdBQUcsQ0FBQztBQUNYLG1CQUFlLGVBREo7QUFFWCxZQUFRLGVBRkc7QUFHWCxhQUFTLEdBSEU7QUFJWCxrQkFBYztBQUpILEdBQUQsRUFNWjtBQUNFLG1CQUFlLDBCQURqQjtBQUVFLFlBQVEsWUFGVjtBQUdFLGFBQVMsR0FIWDtBQUlFLGtCQUFjO0FBSmhCLEdBTlksRUFZWjtBQUNFLG1CQUFlLHlCQURqQjtBQUVFLFlBQVEsZUFGVjtBQUdFLGFBQVMsRUFIWDtBQUlFLGtCQUFjO0FBSmhCLEdBWlksQ0FBZDtBQW1CQSxRQUFNQyxJQUFJLEdBQUc7QUFBRUMsSUFBQUEsSUFBSSxFQUFHRjtBQUFULEdBQWI7QUFFQUgsRUFBQUEsS0FBSyxDQUFDTSxHQUFOLENBQVVDLGtCQUFWLENBQTZCLE1BQU1DLE9BQU8sQ0FBQ0MsT0FBUixDQUFnQkwsSUFBaEIsQ0FBbkM7QUFFQU0sRUFBQUEsS0FBSyxDQUFDQyxHQUFOLEdBQVlDLElBQVosQ0FBaUJSLElBQUksSUFBSVMsTUFBTSxDQUFDVCxJQUFJLENBQUNDLElBQU4sQ0FBTixDQUFrQlMsT0FBbEIsQ0FBMEJYLEtBQTFCLENBQXpCO0FBQ0MsQ0ExQkcsQ0FBSiIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IGF4aW9zID0gcmVxdWlyZSgnYXhpb3MnKTtcblxuamVzdC5tb2NrKCdheGlvcycpO1xuXG50ZXN0KCdzaG91bGQgZmV0Y2ggdXNlcnMnLCAoKSA9PiB7XG5cbmNvbnN0IHVzZXJzID0gW3tcbiAgICBcInNjaG9vbF9uYW1lXCI6IFwic3RhdGUgY2VudHJhbFwiLFxuICAgIFwibmFtZVwiOiBcImFseWNlIGZpc2NoZXJcIixcbiAgICBcInNjb3JlXCI6IDk5NSxcbiAgICBcImNsYXNzX25hbWVcIjogMVxuICB9LFxuICB7XG4gICAgXCJzY2hvb2xfbmFtZVwiOiBcIlN5ZG5leSBHaXJscyBIaWdoIFNjaG9vbFwiLFxuICAgIFwibmFtZVwiOiBcIkxhcmEgV2FsbHNcIixcbiAgICBcInNjb3JlXCI6IDcwOSxcbiAgICBcImNsYXNzX25hbWVcIjogNFxuICB9LFxuICB7XG4gICAgXCJzY2hvb2xfbmFtZVwiOiBcIkZvcnQgU3RyZWV0IEhpZ2ggU2Nob29sXCIsXG4gICAgXCJuYW1lXCI6IFwiSmVuaWZlciBNaWxsc1wiLFxuICAgIFwic2NvcmVcIjogNTUsXG4gICAgXCJjbGFzc19uYW1lXCI6IFwiUHJlcFwiXG4gIH1dO1xuXG5jb25zdCByZXNwID0geyBkYXRhIDogdXNlcnMgfTtcblxuYXhpb3MuZ2V0Lm1vY2tJbXBsZW1lbnRhdGlvbigoKSA9PiBQcm9taXNlLnJlc29sdmUocmVzcCkpO1xuXG5Vc2Vycy5hbGwoKS50aGVuKHJlc3AgPT4gZXhwZWN0KHJlc3AuZGF0YSkudG9FcXVhbCh1c2VycykpO1xufSk7Il19

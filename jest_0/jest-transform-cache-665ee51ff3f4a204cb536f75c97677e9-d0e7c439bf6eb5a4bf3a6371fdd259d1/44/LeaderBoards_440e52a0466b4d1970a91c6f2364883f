@@ -1,0 +1,186 @@
+6a782baeb1f9b56a2a0aebc64714fdb0
+"use strict";
+
+var _interopRequireDefault = require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _classCallCheck2 = _interopRequireDefault(require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/helpers/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/helpers/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/helpers/possibleConstructorReturn"));
+
+var _getPrototypeOf2 = _interopRequireDefault(require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/helpers/getPrototypeOf"));
+
+var _inherits2 = _interopRequireDefault(require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/helpers/inherits"));
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _StudentList = _interopRequireDefault(require("./StudentList"));
+
+var _ClassList = _interopRequireDefault(require("./ClassList"));
+
+var _SchoolList = _interopRequireDefault(require("./SchoolList"));
+
+var _reactBootstrap = require("react-bootstrap");
+
+var _jsxFileName = "/var/www/html/react-leaderboard/src/Component/LeaderBoards.js";
+
+var LeaderBoards =
+/*#__PURE__*/
+function (_Component) {
+  (0, _inherits2["default"])(LeaderBoards, _Component);
+
+  function LeaderBoards() {
+    (0, _classCallCheck2["default"])(this, LeaderBoards);
+    return (0, _possibleConstructorReturn2["default"])(this, (0, _getPrototypeOf2["default"])(LeaderBoards).apply(this, arguments));
+  }
+
+  (0, _createClass2["default"])(LeaderBoards, [{
+    key: "render",
+    value: function render() {
+      return _react["default"].createElement(_reactBootstrap.Tab.Container, {
+        id: "left-tabs-example",
+        defaultActiveKey: "first",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        },
+        __self: this
+      }, _react["default"].createElement(_reactBootstrap.Row, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        },
+        __self: this
+      }, _react["default"].createElement(_reactBootstrap.Col, {
+        sm: 12,
+        md: 4,
+        lg: 3,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        },
+        __self: this
+      }, _react["default"].createElement("h1", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, "Leaderboard"), _react["default"].createElement(_reactBootstrap.Nav, {
+        variant: "pills",
+        className: "flex-column",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, _react["default"].createElement(_reactBootstrap.Nav.Item, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, _react["default"].createElement(_reactBootstrap.Nav.Link, {
+        eventKey: "first",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, "Student's Leaderboard")), _react["default"].createElement(_reactBootstrap.Nav.Item, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, _react["default"].createElement(_reactBootstrap.Nav.Link, {
+        eventKey: "second",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, "Class Leaderboard")), _react["default"].createElement(_reactBootstrap.Nav.Item, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, _react["default"].createElement(_reactBootstrap.Nav.Link, {
+        eventKey: "third",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, "School Leaderboard")))), _react["default"].createElement(_reactBootstrap.Col, {
+        sm: 12,
+        md: 8,
+        lg: 9,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, _react["default"].createElement(_reactBootstrap.Tab.Content, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }, _react["default"].createElement(_reactBootstrap.Tab.Pane, {
+        eventKey: "first",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, _react["default"].createElement(_StudentList["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      })), _react["default"].createElement(_reactBootstrap.Tab.Pane, {
+        eventKey: "second",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, _react["default"].createElement(_ClassList["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      })), _react["default"].createElement(_reactBootstrap.Tab.Pane, {
+        eventKey: "third",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, _react["default"].createElement(_SchoolList["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }))))));
+    }
+  }]);
+  return LeaderBoards;
+}(_react.Component);
+
+var _default = LeaderBoards;
+exports["default"] = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkxlYWRlckJvYXJkcy5qcyJdLCJuYW1lcyI6WyJMZWFkZXJCb2FyZHMiLCJDb21wb25lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOzs7O0lBRU1BLFk7Ozs7Ozs7Ozs7Ozs2QkFDTTtBQUNKLGFBQ0EsZ0NBQUMsbUJBQUQsQ0FBSyxTQUFMO0FBQWUsUUFBQSxFQUFFLEVBQUMsbUJBQWxCO0FBQXNDLFFBQUEsZ0JBQWdCLEVBQUMsT0FBdkQ7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsU0FDSSxnQ0FBQyxtQkFBRDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxTQUNFLGdDQUFDLG1CQUFEO0FBQUssUUFBQSxFQUFFLEVBQUUsRUFBVDtBQUFhLFFBQUEsRUFBRSxFQUFFLENBQWpCO0FBQW9CLFFBQUEsRUFBRSxFQUFFLENBQXhCO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFNBQ0E7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsdUJBREEsRUFFRSxnQ0FBQyxtQkFBRDtBQUFLLFFBQUEsT0FBTyxFQUFDLE9BQWI7QUFBcUIsUUFBQSxTQUFTLEVBQUMsYUFBL0I7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsU0FDRSxnQ0FBQyxtQkFBRCxDQUFLLElBQUw7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsU0FDRSxnQ0FBQyxtQkFBRCxDQUFLLElBQUw7QUFBVSxRQUFBLFFBQVEsRUFBQyxPQUFuQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxpQ0FERixDQURGLEVBSUUsZ0NBQUMsbUJBQUQsQ0FBSyxJQUFMO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFNBQ0UsZ0NBQUMsbUJBQUQsQ0FBSyxJQUFMO0FBQVUsUUFBQSxRQUFRLEVBQUMsUUFBbkI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsNkJBREYsQ0FKRixFQU9FLGdDQUFDLG1CQUFELENBQUssSUFBTDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxTQUNFLGdDQUFDLG1CQUFELENBQUssSUFBTDtBQUFVLFFBQUEsUUFBUSxFQUFDLE9BQW5CO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLDhCQURGLENBUEYsQ0FGRixDQURGLEVBZUUsZ0NBQUMsbUJBQUQ7QUFBSyxRQUFBLEVBQUUsRUFBRSxFQUFUO0FBQWEsUUFBQSxFQUFFLEVBQUUsQ0FBakI7QUFBb0IsUUFBQSxFQUFFLEVBQUUsQ0FBeEI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsU0FDRSxnQ0FBQyxtQkFBRCxDQUFLLE9BQUw7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsU0FDRSxnQ0FBQyxtQkFBRCxDQUFLLElBQUw7QUFBVSxRQUFBLFFBQVEsRUFBQyxPQUFuQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxTQUNFLGdDQUFDLHVCQUFEO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFFBREYsQ0FERixFQUlFLGdDQUFDLG1CQUFELENBQUssSUFBTDtBQUFVLFFBQUEsUUFBUSxFQUFDLFFBQW5CO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFNBQ0UsZ0NBQUMscUJBQUQ7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsUUFERixDQUpGLEVBT0UsZ0NBQUMsbUJBQUQsQ0FBSyxJQUFMO0FBQVUsUUFBQSxRQUFRLEVBQUMsT0FBbkI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsU0FDRSxnQ0FBQyxzQkFBRDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxRQURGLENBUEYsQ0FERixDQWZGLENBREosQ0FEQTtBQWlDSDs7O0VBbkNzQkMsZ0I7O2VBcUNaRCxZIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0ICwge0NvbXBvbmVudH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IFN0dWRlbnRMaXN0IGZyb20gJy4vU3R1ZGVudExpc3QnO1xuaW1wb3J0IENsYXNzTGlzdCBmcm9tICcuL0NsYXNzTGlzdCc7XG5pbXBvcnQgU2Nob29sTGlzdCBmcm9tICcuL1NjaG9vbExpc3QnO1xuaW1wb3J0IHsgVGFiLCBSb3csIENvbCwgTmF2IH0gZnJvbSAncmVhY3QtYm9vdHN0cmFwJztcblxuY2xhc3MgTGVhZGVyQm9hcmRzIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgICByZW5kZXIoKXtcbiAgICAgICAgcmV0dXJuIChcbiAgICAgICAgPFRhYi5Db250YWluZXIgaWQ9XCJsZWZ0LXRhYnMtZXhhbXBsZVwiIGRlZmF1bHRBY3RpdmVLZXk9XCJmaXJzdFwiPlxuICAgICAgICAgICAgPFJvdz5cbiAgICAgICAgICAgICAgPENvbCBzbT17MTJ9IG1kPXs0fSBsZz17M30+XG4gICAgICAgICAgICAgIDxoMT5MZWFkZXJib2FyZDwvaDE+XG4gICAgICAgICAgICAgICAgPE5hdiB2YXJpYW50PVwicGlsbHNcIiBjbGFzc05hbWU9XCJmbGV4LWNvbHVtblwiPlxuICAgICAgICAgICAgICAgICAgPE5hdi5JdGVtPlxuICAgICAgICAgICAgICAgICAgICA8TmF2LkxpbmsgZXZlbnRLZXk9XCJmaXJzdFwiPlN0dWRlbnQncyBMZWFkZXJib2FyZDwvTmF2Lkxpbms+XG4gICAgICAgICAgICAgICAgICA8L05hdi5JdGVtPlxuICAgICAgICAgICAgICAgICAgPE5hdi5JdGVtPlxuICAgICAgICAgICAgICAgICAgICA8TmF2LkxpbmsgZXZlbnRLZXk9XCJzZWNvbmRcIj5DbGFzcyBMZWFkZXJib2FyZDwvTmF2Lkxpbms+XG4gICAgICAgICAgICAgICAgICA8L05hdi5JdGVtPlxuICAgICAgICAgICAgICAgICAgPE5hdi5JdGVtPlxuICAgICAgICAgICAgICAgICAgICA8TmF2LkxpbmsgZXZlbnRLZXk9XCJ0aGlyZFwiPlNjaG9vbCBMZWFkZXJib2FyZDwvTmF2Lkxpbms+XG4gICAgICAgICAgICAgICAgICA8L05hdi5JdGVtPlxuICAgICAgICAgICAgICAgIDwvTmF2PlxuICAgICAgICAgICAgICA8L0NvbD5cbiAgICAgICAgICAgICAgPENvbCBzbT17MTJ9IG1kPXs4fSBsZz17OX0+XG4gICAgICAgICAgICAgICAgPFRhYi5Db250ZW50PlxuICAgICAgICAgICAgICAgICAgPFRhYi5QYW5lIGV2ZW50S2V5PVwiZmlyc3RcIj5cbiAgICAgICAgICAgICAgICAgICAgPFN0dWRlbnRMaXN0Lz5cbiAgICAgICAgICAgICAgICAgIDwvVGFiLlBhbmU+XG4gICAgICAgICAgICAgICAgICA8VGFiLlBhbmUgZXZlbnRLZXk9XCJzZWNvbmRcIj5cbiAgICAgICAgICAgICAgICAgICAgPENsYXNzTGlzdC8+XG4gICAgICAgICAgICAgICAgICA8L1RhYi5QYW5lPlxuICAgICAgICAgICAgICAgICAgPFRhYi5QYW5lIGV2ZW50S2V5PVwidGhpcmRcIj5cbiAgICAgICAgICAgICAgICAgICAgPFNjaG9vbExpc3QvPlxuICAgICAgICAgICAgICAgICAgPC9UYWIuUGFuZT5cbiAgICAgICAgICAgICAgICA8L1RhYi5Db250ZW50PlxuICAgICAgICAgICAgICA8L0NvbD5cbiAgICAgICAgICAgIDwvUm93PlxuICAgICAgICAgIDwvVGFiLkNvbnRhaW5lcj5cbiAgICAgICAgKTtcbiAgICB9XG59XG5leHBvcnQgZGVmYXVsdCBMZWFkZXJCb2FyZHM7XG4iXX0=

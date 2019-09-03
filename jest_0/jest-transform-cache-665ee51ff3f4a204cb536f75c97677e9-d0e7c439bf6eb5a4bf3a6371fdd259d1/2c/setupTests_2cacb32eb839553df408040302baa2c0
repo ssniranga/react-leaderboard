@@ -1,0 +1,22 @@
+c2501c8a3a12245da1cdfbf5c474d823
+"use strict";
+
+var _interopRequireWildcard = require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+var _interopRequireDefault = require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _enzyme = _interopRequireWildcard(require("enzyme"));
+
+var _enzymeAdapterReact = _interopRequireDefault(require("enzyme-adapter-react-16"));
+
+_enzyme["default"].configure({
+  adapter: new _enzymeAdapterReact["default"]()
+});
+
+global.React = _react["default"];
+global.shallow = _enzyme.shallow;
+global.render = _enzyme.render;
+global.mount = _enzyme.mount;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNldHVwVGVzdHMuanMiXSwibmFtZXMiOlsiRW56eW1lIiwiY29uZmlndXJlIiwiYWRhcHRlciIsIkFkYXB0ZXIiLCJnbG9iYWwiLCJSZWFjdCIsInNoYWxsb3ciLCJyZW5kZXIiLCJtb3VudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7O0FBQ0E7O0FBR0E7O0FBQ0FBLG1CQUFPQyxTQUFQLENBQWlCO0FBQUVDLEVBQUFBLE9BQU8sRUFBRSxJQUFJQyw4QkFBSjtBQUFYLENBQWpCOztBQUVBQyxNQUFNLENBQUNDLEtBQVAsR0FBZUEsaUJBQWY7QUFDQUQsTUFBTSxDQUFDRSxPQUFQLEdBQWlCQSxlQUFqQjtBQUNBRixNQUFNLENBQUNHLE1BQVAsR0FBZ0JBLGNBQWhCO0FBQ0FILE1BQU0sQ0FBQ0ksS0FBUCxHQUFlQSxhQUFmIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBFbnp5bWUsIHsgc2hhbGxvdywgcmVuZGVyLCBtb3VudCB9IGZyb20gJ2VuenltZSc7XG5cblxuaW1wb3J0IEFkYXB0ZXIgZnJvbSAnZW56eW1lLWFkYXB0ZXItcmVhY3QtMTYnO1xuRW56eW1lLmNvbmZpZ3VyZSh7IGFkYXB0ZXI6IG5ldyBBZGFwdGVyKCkgfSk7XG5cbmdsb2JhbC5SZWFjdCA9IFJlYWN0O1xuZ2xvYmFsLnNoYWxsb3cgPSBzaGFsbG93O1xuZ2xvYmFsLnJlbmRlciA9IHJlbmRlcjtcbmdsb2JhbC5tb3VudCA9IG1vdW50OyJdfQ==

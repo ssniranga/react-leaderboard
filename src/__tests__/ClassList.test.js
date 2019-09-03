@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow, mount, render } from 'enzyme';
-import StudentList from "./StudentList";
+import ClassList from "../Component/ClassList";
 
 
 describe("ComponentName", () => {
     it("should render my component", () => {
-    const wrapper = render(<StudentList />);
+    const wrapper = render(<ClassList />);
 
       expect(wrapper).toMatchSnapshot();
     });

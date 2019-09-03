@@ -1,0 +1,204 @@
+9e31897c8ce016e55f34d99d169d13e6
+"use strict";
+
+jest.mock('axios');
+
+var _interopRequireDefault = require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _regenerator = _interopRequireDefault(require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/regenerator"));
+
+var _asyncToGenerator2 = _interopRequireDefault(require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/helpers/asyncToGenerator"));
+
+var _classCallCheck2 = _interopRequireDefault(require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/helpers/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("/var/www/html/react-leaderboard/node_modules/@babel/runtime/helpers/createClass"));
+
+var axios = require('axios');
+
+var Students =
+/*#__PURE__*/
+function () {
+  function Students() {
+    (0, _classCallCheck2["default"])(this, Students);
+  }
+
+  (0, _createClass2["default"])(Students, null, [{
+    key: "all",
+    value: function () {
+      var _all = (0, _asyncToGenerator2["default"])(
+      /*#__PURE__*/
+      _regenerator["default"].mark(function _callee() {
+        var res;
+        return _regenerator["default"].wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.next = 2;
+                return axios.get('../data/students-scores.json').then(function (res) {
+                  return res.data;
+                });
+
+              case 2:
+                res = _context.sent;
+                return _context.abrupt("return", res);
+
+              case 4:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }));
+
+      function all() {
+        return _all.apply(this, arguments);
+      }
+
+      return all;
+    }()
+  }]);
+  return Students;
+}();
+
+var Classes =
+/*#__PURE__*/
+function () {
+  function Classes() {
+    (0, _classCallCheck2["default"])(this, Classes);
+  }
+
+  (0, _createClass2["default"])(Classes, null, [{
+    key: "all",
+    value: function () {
+      var _all2 = (0, _asyncToGenerator2["default"])(
+      /*#__PURE__*/
+      _regenerator["default"].mark(function _callee2() {
+        var resC;
+        return _regenerator["default"].wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                _context2.next = 2;
+                return axios.get('../data/class-scores.json').then(function (respC) {
+                  return respC.data;
+                });
+
+              case 2:
+                resC = _context2.sent;
+                return _context2.abrupt("return", resC);
+
+              case 4:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2);
+      }));
+
+      function all() {
+        return _all2.apply(this, arguments);
+      }
+
+      return all;
+    }()
+  }]);
+  return Classes;
+}();
+
+var Schools =
+/*#__PURE__*/
+function () {
+  function Schools() {
+    (0, _classCallCheck2["default"])(this, Schools);
+  }
+
+  (0, _createClass2["default"])(Schools, null, [{
+    key: "all",
+    value: function () {
+      var _all3 = (0, _asyncToGenerator2["default"])(
+      /*#__PURE__*/
+      _regenerator["default"].mark(function _callee3() {
+        var resS;
+        return _regenerator["default"].wrap(function _callee3$(_context3) {
+          while (1) {
+            switch (_context3.prev = _context3.next) {
+              case 0:
+                _context3.next = 2;
+                return axios.get('../data/school-scores.json').then(function (respS) {
+                  return respS.data;
+                });
+
+              case 2:
+                resS = _context3.sent;
+                return _context3.abrupt("return", resS);
+
+              case 4:
+              case "end":
+                return _context3.stop();
+            }
+          }
+        }, _callee3);
+      }));
+
+      function all() {
+        return _all3.apply(this, arguments);
+      }
+
+      return all;
+    }()
+  }]);
+  return Schools;
+}();
+
+test('Should fetch Students', function () {
+  var students = [{
+    "school_name": "state central",
+    "name": "alyce fischer",
+    "score": 995,
+    "class_name": 3
+  }];
+  var resp = {
+    data: students
+  };
+  axios.get.mockImplementation(function () {
+    return Promise.resolve(resp);
+  });
+  return Students.all().then(function (data) {
+    return expect(data).toEqual(students);
+  });
+});
+test('Should fetch Classes', function () {
+  var classes = [{
+    "school_name": "Fort Street High School",
+    "teacher_name": "Connie Mcknight",
+    "score": 8566,
+    "class_name": 1
+  }];
+  var respC = {
+    data: classes
+  };
+  axios.get.mockImplementation(function () {
+    return Promise.resolve(respC);
+  });
+  Classes.all().then(function (resp) {
+    return expect(respC.data).toEqual(classes);
+  });
+});
+test('Should fetch Schools', function () {
+  var schools = [{
+    "school_name": "Brsibane High",
+    "admin_name": "Brandie Mcgee",
+    "school_address": "Gold Coast, QLD",
+    "score": 95608
+  }];
+  var respS = {
+    data: schools
+  };
+  axios.get.mockImplementation(function () {
+    return Promise.resolve(respS);
+  });
+  Schools.all().then(function (resp) {
+    return expect(respS.data).toEqual(schools);
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZpY2UudGVzdC5qcyJdLCJuYW1lcyI6WyJqZXN0IiwibW9jayIsImF4aW9zIiwicmVxdWlyZSIsIlN0dWRlbnRzIiwiZ2V0IiwidGhlbiIsInJlcyIsImRhdGEiLCJDbGFzc2VzIiwicmVzcEMiLCJyZXNDIiwiU2Nob29scyIsInJlc3BTIiwicmVzUyIsInRlc3QiLCJzdHVkZW50cyIsInJlc3AiLCJtb2NrSW1wbGVtZW50YXRpb24iLCJQcm9taXNlIiwicmVzb2x2ZSIsImFsbCIsImV4cGVjdCIsInRvRXF1YWwiLCJjbGFzc2VzIiwic2Nob29scyJdLCJtYXBwaW5ncyI6Ijs7QUF1QkFBLElBQUksQ0FBQ0MsSUFBTCxDQUFVLE9BQVY7Ozs7Ozs7Ozs7OztBQXZCQSxJQUFNQyxLQUFLLEdBQUdDLE9BQU8sQ0FBQyxPQUFELENBQXJCOztJQUVNQyxROzs7Ozs7Ozs7Ozs7Ozs7Ozs7O3VCQUVrQkYsS0FBSyxDQUFDRyxHQUFOLENBQVUsOEJBQVYsRUFBMENDLElBQTFDLENBQStDLFVBQUFDLEdBQUc7QUFBQSx5QkFBSUEsR0FBRyxDQUFDQyxJQUFSO0FBQUEsaUJBQWxELEM7OztBQUFaRCxnQkFBQUEsRztpREFDR0EsRzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFJVEUsTzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozt1QkFFa0JQLEtBQUssQ0FBQ0csR0FBTixDQUFVLDJCQUFWLEVBQXVDQyxJQUF2QyxDQUE0QyxVQUFBSSxLQUFLO0FBQUEseUJBQUlBLEtBQUssQ0FBQ0YsSUFBVjtBQUFBLGlCQUFqRCxDOzs7QUFBYkcsZ0JBQUFBLEk7a0RBQ0dBLEk7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBSVJDLE87Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7dUJBRWtCVixLQUFLLENBQUNHLEdBQU4sQ0FBVSw0QkFBVixFQUF3Q0MsSUFBeEMsQ0FBNkMsVUFBQU8sS0FBSztBQUFBLHlCQUFJQSxLQUFLLENBQUNMLElBQVY7QUFBQSxpQkFBbEQsQzs7O0FBQWJNLGdCQUFBQSxJO2tEQUNHQSxJOzs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQU1kQyxJQUFJLENBQUMsdUJBQUQsRUFBMEIsWUFBTTtBQUNoQyxNQUFNQyxRQUFRLEdBQUcsQ0FBQztBQUNkLG1CQUFlLGVBREQ7QUFFZCxZQUFRLGVBRk07QUFHZCxhQUFTLEdBSEs7QUFJZCxrQkFBYztBQUpBLEdBQUQsQ0FBakI7QUFPQSxNQUFNQyxJQUFJLEdBQUc7QUFBRVQsSUFBQUEsSUFBSSxFQUFHUTtBQUFULEdBQWI7QUFFQWQsRUFBQUEsS0FBSyxDQUFDRyxHQUFOLENBQVVhLGtCQUFWLENBQTZCO0FBQUEsV0FBTUMsT0FBTyxDQUFDQyxPQUFSLENBQWdCSCxJQUFoQixDQUFOO0FBQUEsR0FBN0I7QUFFQSxTQUFPYixRQUFRLENBQUNpQixHQUFULEdBQWVmLElBQWYsQ0FBb0IsVUFBQUUsSUFBSTtBQUFBLFdBQUljLE1BQU0sQ0FBQ2QsSUFBRCxDQUFOLENBQWFlLE9BQWIsQ0FBcUJQLFFBQXJCLENBQUo7QUFBQSxHQUF4QixDQUFQO0FBRUgsQ0FkRyxDQUFKO0FBZ0JBRCxJQUFJLENBQUMsc0JBQUQsRUFBeUIsWUFBTTtBQUUvQixNQUFNUyxPQUFPLEdBQUcsQ0FBRTtBQUNkLG1CQUFlLHlCQUREO0FBRWQsb0JBQWdCLGlCQUZGO0FBR2QsYUFBUyxJQUhLO0FBSWQsa0JBQWM7QUFKQSxHQUFGLENBQWhCO0FBT0EsTUFBTWQsS0FBSyxHQUFHO0FBQUVGLElBQUFBLElBQUksRUFBR2dCO0FBQVQsR0FBZDtBQUVBdEIsRUFBQUEsS0FBSyxDQUFDRyxHQUFOLENBQVVhLGtCQUFWLENBQTZCO0FBQUEsV0FBTUMsT0FBTyxDQUFDQyxPQUFSLENBQWdCVixLQUFoQixDQUFOO0FBQUEsR0FBN0I7QUFFQUQsRUFBQUEsT0FBTyxDQUFDWSxHQUFSLEdBQWNmLElBQWQsQ0FBbUIsVUFBQVcsSUFBSTtBQUFBLFdBQUlLLE1BQU0sQ0FBQ1osS0FBSyxDQUFDRixJQUFQLENBQU4sQ0FBbUJlLE9BQW5CLENBQTJCQyxPQUEzQixDQUFKO0FBQUEsR0FBdkI7QUFDSCxDQWRHLENBQUo7QUFnQkFULElBQUksQ0FBQyxzQkFBRCxFQUF5QixZQUFNO0FBQy9CLE1BQU1VLE9BQU8sR0FBRyxDQUFDO0FBQ2IsbUJBQWMsZUFERDtBQUViLGtCQUFhLGVBRkE7QUFHYixzQkFBaUIsaUJBSEo7QUFJYixhQUFRO0FBSkssR0FBRCxDQUFoQjtBQU9BLE1BQU1aLEtBQUssR0FBRztBQUFFTCxJQUFBQSxJQUFJLEVBQUdpQjtBQUFULEdBQWQ7QUFFQXZCLEVBQUFBLEtBQUssQ0FBQ0csR0FBTixDQUFVYSxrQkFBVixDQUE2QjtBQUFBLFdBQU1DLE9BQU8sQ0FBQ0MsT0FBUixDQUFnQlAsS0FBaEIsQ0FBTjtBQUFBLEdBQTdCO0FBRUFELEVBQUFBLE9BQU8sQ0FBQ1MsR0FBUixHQUFjZixJQUFkLENBQW1CLFVBQUFXLElBQUk7QUFBQSxXQUFJSyxNQUFNLENBQUNULEtBQUssQ0FBQ0wsSUFBUCxDQUFOLENBQW1CZSxPQUFuQixDQUEyQkUsT0FBM0IsQ0FBSjtBQUFBLEdBQXZCO0FBRUgsQ0FkRyxDQUFKIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgYXhpb3MgPSByZXF1aXJlKCdheGlvcycpO1xuXG5jbGFzcyBTdHVkZW50cyB7XG4gICAgc3RhdGljIGFzeW5jIGFsbCgpIHtcbiAgICAgICAgbGV0IHJlcyA9IGF3YWl0IGF4aW9zLmdldCgnLi4vZGF0YS9zdHVkZW50cy1zY29yZXMuanNvbicpLnRoZW4ocmVzID0+IHJlcy5kYXRhKTtcbiAgICAgICAgcmV0dXJuIHJlcztcbiAgICAgfVxufVxuXG5jbGFzcyBDbGFzc2VzIHtcbiAgICBzdGF0aWMgYXN5bmMgYWxsKCkge1xuICAgICAgIGxldCByZXNDID0gYXdhaXQgYXhpb3MuZ2V0KCcuLi9kYXRhL2NsYXNzLXNjb3Jlcy5qc29uJykudGhlbihyZXNwQyA9PiByZXNwQy5kYXRhKTtcbiAgICAgICByZXR1cm4gcmVzQztcbiAgICAgfVxufVxuXG5jbGFzcyBTY2hvb2xzIHtcbiAgICBzdGF0aWMgYXN5bmMgYWxsKCkge1xuICAgICAgIGxldCByZXNTID0gYXdhaXQgYXhpb3MuZ2V0KCcuLi9kYXRhL3NjaG9vbC1zY29yZXMuanNvbicpLnRoZW4ocmVzcFMgPT4gcmVzcFMuZGF0YSk7XG4gICAgICAgcmV0dXJuIHJlc1M7XG4gICAgIH1cbn1cblxuamVzdC5tb2NrKCdheGlvcycpO1xuXG50ZXN0KCdTaG91bGQgZmV0Y2ggU3R1ZGVudHMnLCAoKSA9PiB7XG4gICAgY29uc3Qgc3R1ZGVudHMgPSBbe1xuICAgICAgICBcInNjaG9vbF9uYW1lXCI6IFwic3RhdGUgY2VudHJhbFwiLFxuICAgICAgICBcIm5hbWVcIjogXCJhbHljZSBmaXNjaGVyXCIsXG4gICAgICAgIFwic2NvcmVcIjogOTk1LFxuICAgICAgICBcImNsYXNzX25hbWVcIjogM1xuICAgIH1dO1xuXG4gICAgY29uc3QgcmVzcCA9IHsgZGF0YSA6IHN0dWRlbnRzIH07XG4gXG4gICAgYXhpb3MuZ2V0Lm1vY2tJbXBsZW1lbnRhdGlvbigoKSA9PiBQcm9taXNlLnJlc29sdmUocmVzcCkpO1xuXG4gICAgcmV0dXJuIFN0dWRlbnRzLmFsbCgpLnRoZW4oZGF0YSA9PiBleHBlY3QoZGF0YSkudG9FcXVhbChzdHVkZW50cykpO1xuXG59KTtcblxudGVzdCgnU2hvdWxkIGZldGNoIENsYXNzZXMnLCAoKSA9PiB7XG5cbiAgICBjb25zdCBjbGFzc2VzID0gWyB7XG4gICAgICAgIFwic2Nob29sX25hbWVcIjogXCJGb3J0IFN0cmVldCBIaWdoIFNjaG9vbFwiLFxuICAgICAgICBcInRlYWNoZXJfbmFtZVwiOiBcIkNvbm5pZSBNY2tuaWdodFwiLFxuICAgICAgICBcInNjb3JlXCI6IDg1NjYsXG4gICAgICAgIFwiY2xhc3NfbmFtZVwiOiAxXG4gICAgICB9XTtcblxuICAgIGNvbnN0IHJlc3BDID0geyBkYXRhIDogY2xhc3NlcyB9O1xuXG4gICAgYXhpb3MuZ2V0Lm1vY2tJbXBsZW1lbnRhdGlvbigoKSA9PiBQcm9taXNlLnJlc29sdmUocmVzcEMpKTtcblxuICAgIENsYXNzZXMuYWxsKCkudGhlbihyZXNwID0+IGV4cGVjdChyZXNwQy5kYXRhKS50b0VxdWFsKGNsYXNzZXMpKTtcbn0pO1xuXG50ZXN0KCdTaG91bGQgZmV0Y2ggU2Nob29scycsICgpID0+IHtcbiAgICBjb25zdCBzY2hvb2xzID0gW3tcbiAgICAgICAgXCJzY2hvb2xfbmFtZVwiOlwiQnJzaWJhbmUgSGlnaFwiLFxuICAgICAgICBcImFkbWluX25hbWVcIjpcIkJyYW5kaWUgTWNnZWVcIixcbiAgICAgICAgXCJzY2hvb2xfYWRkcmVzc1wiOlwiR29sZCBDb2FzdCwgUUxEXCIsXG4gICAgICAgIFwic2NvcmVcIjo5NTYwOFxuICAgICB9XTtcblxuICAgIGNvbnN0IHJlc3BTID0geyBkYXRhIDogc2Nob29scyB9O1xuXG4gICAgYXhpb3MuZ2V0Lm1vY2tJbXBsZW1lbnRhdGlvbigoKSA9PiBQcm9taXNlLnJlc29sdmUocmVzcFMpKTtcblxuICAgIFNjaG9vbHMuYWxsKCkudGhlbihyZXNwID0+IGV4cGVjdChyZXNwUy5kYXRhKS50b0VxdWFsKHNjaG9vbHMpKTtcbiAgICBcbn0pO1xuIl19
